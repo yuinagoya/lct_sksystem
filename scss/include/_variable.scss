@@ -1,0 +1,22 @@
+// Break Point ---------------------------------------------
+$breakpoint_sp: 767px;
+$breakpoint_pc: $breakpoint_sp + 1;
+
+// Color ---------------------------------------------------
+$c_base: #2fa876;
+$c_sub: #fff835;
+$c_txt: #332420;
+$c_white: #f7f8fa;
+
+// Font Family ---------------------------------------------
+
+//ゴシック
+$ff_gothic: 'Noto Sans JP', YuGothic, "Yu Gothic", "ヒラギノ角ゴシック", "Hiragino Sans", sans-serif;
+
+//明朝
+$ff_mincho: "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+
+//英語
+$ff_eng:  "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", sans-serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");

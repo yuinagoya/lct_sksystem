@@ -1,0 +1,27 @@
+//Mixins
+
+//vw指定
+@function vw($size, $viewport: 375) {
+  $rate: 100 / $viewport;
+  @return $rate * $size * 1vw;
+}
+
+//vwでのフォントサイズ指定
+@mixin fz($font_size: 10) {
+  font-size: $font_size * 1px;
+  font-size: vw($font_size);
+}
+
+// media quary
+@mixin mq($media) {
+  @if $media == sp {
+    @media screen and (max-width: #{$breakpoint_sp}) {
+      @content;
+    }
+  }
+  @if $media == pc {
+    @media screen and (min-width: #{$breakpoint_pc}) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script>
+    if (!/iPhone|iPod|Android/.test(navigator.userAgent)) {
+      document.querySelector('meta[name=viewport]').content = 'width=1200';
+    }
+  </script>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="theme-color">
+  <title>株式会社エスケイシステム</title>
+
+  <link rel="stylesheet" type="text/css" href="css/lib/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/lib/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="css/common.css" />
+  <link rel="stylesheet" type="text/css" href="css/top.css" />
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/lib/slick.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/top.js"></script>
+</head>
+
+<body id="body">
+  <div id="loading">
+    <div id="loading__img">
+      <img src="images/top/loading.svg" alt="logo">
+      <span>loading...</span>
+    </div>
+    <!-- /.loading__img -->
+
+    <div class="loading__splash"></div>
+    <!-- /.loading__splash -->
+  </div>
+  <!-- /.loading -->
+
+  <!---=================================
+    HEADER
+  ==================================--->
+  <header id="header">
+    <div class="header__wrap">
+      <!---===========================================
+      ***** 下層ページではh1をdivに変更して下さい *****
+      （実装時にこちらのコメントは削除）
+      ============================================--->
+      <h1 class="header-logo">
+        <a href="/">
+          <img src="images/common/logo.svg" alt="logo">
+        </a>
+      </h1>
+      <!-- /.header-logo -->
+
+      <nav class="global-nav">
+        <ul class="global-nav-list">
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">エスケイシステムにできること</a></li>
+          <li><a href="#">施工事例</a></li>
+          <li><a href="#">よくあるご質問</a></li>
+          <li><a href="#">会社概要</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /.header__wrap -->
+  </header>
+
+
+  <div id="drawer-trigger"><span>menu</span></div>
+
+  <div id="drawer">
+    <div class="drawer__wrap">
+      <nav class="drawer-nav">
+        <ul class="drawer-nav-list">
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">エスケイシステムに<br class="pc">できること</a></li>
+          <li>
+            <a class="trigger" href="#">施工事例</a>
+            <ul class="drawer-nav-sublist">
+              <li><a href="#">新築</a></li>
+              <li><a href="#">リノベーション</a></li>
+              <li><a href="#">リフォーム・増改築</a></li>
+              <li><a href="#">店舗</a></li>
+              <li><a href="#">トイレ</a></li>
+              <li><a href="#">キッチン</a></li>
+              <li><a href="#">浴室・洗面</a></li>
+              <li><a href="#">外構・エクステリア</a></li>
+              <li><a href="#">その他</a></li>
+            </ul>
+          </li>
+          <li><a href="#">よくあるご質問</a></li>
+        </ul>
+
+        <ul class="drawer-nav-list">
+          <li><a href="#">会社概要</a></li>
+          <li><a href="#">お知らせ</a></li>
+          <li><a href="#">施工中の様子</a></li>
+          <li>
+            <a class="trigger" href="#">マガジン</a>
+
+            <ul class="drawer-nav-sublist">
+              <li><a href="#">佐賀ぐーるぐる</a></li>
+              <li><a href="#">福岡ぐーるぐる</a></li>
+            </ul>
+          </li>
+          <li><a href="#">プライバシーポリシー</a></li>
+        </ul>
+      </nav>
+
+      <div class="drawer-content">
+        <h3 class="drawer-content__ttl">リフォーム・新築・土地探しに関する<br>お問い合わせ</h3>
+
+        <div class="drawer-tel">
+          <ul>
+            <li>
+              <span class="drawer-tel__num">
+                佐賀本店<span>0120-927-502</span>
+              </span>
+              <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜18:00（定休日:日・祝）</span>
+            </li>
+            <li>
+              <span class="drawer-tel__num">
+                北九州支店<span>0120-927-502</span>
+              </span>
+              <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜18:00（定休日:日・祝）</span>
+            </li>
+          </ul>
+        </div>
+        <!-- /.drawer-tel -->
+
+        <div class="drawer-contact">
+          <ul>
+            <li>
+              <a href="#">お問い合わせ・無料見積もり</a>
+            </li>
+            <li>
+              <a class="line" href="#">LINEで気軽に相談</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.drawer-contact -->
+
+
+        <h3 class="drawer-content__ttl">土地から探せます</h3>
+        <div class="drawer-search">
+          <a href="#">不動産サイトはこちら<span>物件・土地を探す</span></a>
+        </div>
+        <!-- /.drawer-search -->
+      </div>
+      <!-- /.drawer-content -->
+    </div>
+    <!-- /.drawer__wrap -->
+  </div>
+  <!-- /#drawer -->
+
+  <!---=================================
+    MAIN
+  ==================================--->
+  <main id="main">
+    <article>
+      <section class="mv">
+        <div class="mv__img">
+          <picture>
+            <source media="(max-width: 767px)" srcset="images/top/sp/mv.jpg">
+            <img src="images/top/mv.jpg" alt="MV" loading="lazy">
+          </picture>
+        </div>
+        <!-- /.mv__img -->
+
+        <div class="mv__txt">
+          <p><span>街に根づく住まいと店舗の</span><span>建築プロデューサー</span></p>
+        </div>
+        <!-- /.mv__txt -->
+
+        <div class="mv__bnr">
+          <a href="#"><img src="images/top/bnr_mv.png" alt="不動産サイトはこちら" loading="lazy"></a>
+        </div>
+        <!-- /.mv__bnr -->
+      </section>
+
+
+      <section class="feature">
+        <div class="wrap">
+          <ul class="feature__list">
+            <li>
+              <img src="images/top/feature_01.png" alt="アイコン" loading="lazy">
+              <p>不動産・設計・施工<br><span>3つをワンストップ</span></p>
+            </li>
+            <li>
+              <img src="images/top/feature_02.png" alt="アイコン" loading="lazy">
+              <p>地元で<br><span>25年以上の信頼</span></p>
+            </li>
+            <li>
+              <img src="images/top/feature_03.png" alt="アイコン" loading="lazy">
+              <p>保有資格は<br><span>10個以上</span></p>
+            </li>
+          </ul>
+        </div>
+        <!-- /.wrap -->
+      </section>
+
+
+      <!--===============================
+        施工事例
+      ================================-->
+      <section class="case">
+        <div class="wrap">
+          <div class="scrollin" data-wow-offset="200">
+            <h2 class="case__ttl">施工事例</h2>
+
+            <p>住まいの小さなお悩みから<br>ビル購入の相談まで幅広く対応可能です。</p>
+          </div>
+          <!-- .scrollin -->
+
+          <ul class="case-nav scrollin" data-wow-offset="200">
+            <li>
+              <a href="#">
+                <img src="images/top/case_nav_01.png" alt="" loading="lazy">
+                <span>新築</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/top/case_nav_02.png" alt="" loading="lazy">
+                <span>リノベーション</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/top/case_nav_03.png" alt="" loading="lazy">
+                <span>リフォーム・<br class="sp">増改築</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/top/case_nav_04.png" alt="" loading="lazy">
+                <span>店舗</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/top/case_nav_05.png" alt="" loading="lazy">
+                <span>トイレ</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/top/case_nav_06.png" alt="" loading="lazy">
+                <span>キッチン</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/top/case_nav_07.png" alt="" loading="lazy">
+                <span>浴室・洗面</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/top/case_nav_08.png" alt="" loading="lazy">
+                <span>外構・<br class="sp">エクステリア</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/top/case_nav_09.png" alt="" loading="lazy">
+                <span>その他</span>
+              </a>
+            </li>
+          </ul>
+          <!-- /.case-nav -->
+
+
+          <ul class="case-list">
+            <li class="scrollin-3col">
+              <div class="case-list__wrap">
+                <a href="#">
+                  <img src="images/top/case_01.jpg" alt="" loading="lazy">
+                </a>
+
+                <div class="case-list__txt">
+                  <ul class="case-list__category">
+                    <li><a href="#">外構・エクステリア</a></li>
+                  </ul>
+
+                  <a href="#">
+                    <span class="case-list__ttl">佐賀市K様邸</span>
+                    <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                  </a>
+
+                  <ul class="case-list__tag">
+                    <li><a href="#">北欧</a></li>
+                    <li><a href="#">女性がつかいやすいキッチン</a></li>
+                    <li><a href="#">収納多め</a></li>
+                  </ul>
+                </div>
+                <!-- /.case-list__txt -->
+              </div>
+              <!-- /.case-list__wrap -->
+            </li>
+
+            <li class="scrollin-3col">
+              <div class="case-list__wrap">
+                <a href="#">
+                  <img src="images/top/case_02.jpg" alt="" loading="lazy">
+                </a>
+
+                <div class="case-list__txt">
+                  <ul class="case-list__category">
+                    <li><a href="#">新築</a></li>
+                  </ul>
+
+                  <a href="#">
+                    <span class="case-list__ttl">佐賀市K様邸</span>
+                    <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                  </a>
+
+                  <ul class="case-list__tag">
+                    <li><a href="#">北欧</a></li>
+                    <li><a href="#">女性がつかいやすいキッチン</a></li>
+                    <li><a href="#">収納多め</a></li>
+                  </ul>
+                </div>
+                <!-- /.case-list__txt -->
+              </div>
+              <!-- /.case-list__wrap -->
+            </li>
+
+            <li class="scrollin-3col">
+              <div class="case-list__wrap">
+                <a href="#">
+                  <img src="images/top/case_03.jpg" alt="" loading="lazy">
+                </a>
+
+                <div class="case-list__txt">
+                  <ul class="case-list__category">
+                    <li><a href="#">店舗</a></li>
+                  </ul>
+
+                  <a href="#">
+                    <span class="case-list__ttl">佐賀市K様邸</span>
+                    <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                  </a>
+
+                  <ul class="case-list__tag">
+                    <li><a href="#">北欧</a></li>
+                    <li><a href="#">女性がつかいやすいキッチン</a></li>
+                    <li><a href="#">収納多め</a></li>
+                  </ul>
+                </div>
+                <!-- /.case-list__txt -->
+              </div>
+              <!-- /.case-list__wrap -->
+            </li>
+
+            <li class="scrollin-3col">
+              <div class="case-list__wrap">
+                <a href="#">
+                  <img src="images/top/case_04.jpg" alt="" loading="lazy">
+                </a>
+
+                <div class="case-list__txt">
+                  <ul class="case-list__category">
+                    <li><a href="#">トレイ</a></li>
+                  </ul>
+
+                  <a href="#">
+                    <span class="case-list__ttl">佐賀市K様邸</span>
+                    <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                  </a>
+
+                  <ul class="case-list__tag">
+                    <li><a href="#">北欧</a></li>
+                    <li><a href="#">女性がつかいやすいキッチン</a></li>
+                    <li><a href="#">収納多め</a></li>
+                  </ul>
+                </div>
+                <!-- /.case-list__txt -->
+              </div>
+              <!-- /.case-list__wrap -->
+            </li>
+
+            <li class="scrollin-3col">
+              <div class="case-list__wrap">
+                <a href="#">
+                  <img src="images/top/case_05.jpg" alt="" loading="lazy">
+                </a>
+
+                <div class="case-list__txt">
+                  <ul class="case-list__category">
+                    <li><a href="#">キッチン</a></li>
+                  </ul>
+
+                  <a href="#">
+                    <span class="case-list__ttl">佐賀市K様邸</span>
+                    <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                  </a>
+
+                  <ul class="case-list__tag">
+                    <li><a href="#">北欧</a></li>
+                    <li><a href="#">女性がつかいやすいキッチン</a></li>
+                    <li><a href="#">収納多め</a></li>
+                  </ul>
+                </div>
+                <!-- /.case-list__txt -->
+              </div>
+              <!-- /.case-list__wrap -->
+            </li>
+
+            <li class="scrollin-3col">
+              <div class="case-list__wrap">
+                <a href="#">
+                  <img src="images/top/case_06.jpg" alt="" loading="lazy">
+                </a>
+
+                <div class="case-list__txt">
+                  <ul class="case-list__category">
+                    <li><a href="#">浴室・洗面</a></li>
+                  </ul>
+
+                  <a href="#">
+                    <span class="case-list__ttl">佐賀市K様邸</span>
+                    <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                  </a>
+
+                  <ul class="case-list__tag">
+                    <li><a href="#">北欧</a></li>
+                    <li><a href="#">女性がつかいやすいキッチン</a></li>
+                    <li><a href="#">収納多め</a></li>
+                  </ul>
+                </div>
+                <!-- /.case-list__txt -->
+              </div>
+              <!-- /.case-list__wrap -->
+            </li>
+          </ul>
+
+          <div class="more-btn scrollin">
+            <a href="#">more</a>
+          </div>
+          <!-- /.more-btn -->
+        </div>
+        <!-- /.wrap -->
+      </section>
+
+
+      <!--===============================
+        エスケイシステムができること
+      ================================-->
+      <section class="about">
+        <div id="about-slide" class="scrollin">
+          <div class="about-slide__item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/top/sp/about_01.png">
+              <img src="images/top/about_01.png" alt="スライド">
+            </picture>
+          </div>
+          <div class="about-slide__item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/top/sp/about_02.png">
+              <img src="images/top/about_02.png" alt="スライド">
+            </picture>
+          </div>
+          <div class="about-slide__item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/top/sp/about_03.png">
+              <img src="images/top/about_03.png" alt="スライド">
+            </picture>
+          </div>
+          <div class="about-slide__item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/top/sp/about_04.png">
+              <img src="images/top/about_04.png" alt="スライド">
+            </picture>
+          </div>
+          <div class="about-slide__item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/top/sp/about_05.png">
+              <img src="images/top/about_05.png" alt="スライド">
+            </picture>
+          </div>
+        </div>
+        <!-- /#about-slide -->
+
+
+        <div class="about__wrap">
+          <div class="scrollin">
+            <span class="about__catch">新築・リフォーム・<br class="sp">リノベ・店舗・土地探し</span>
+
+            <h2 class="about__ttl">エスケイシステムにできること</h2>
+            <p>私たちは住まいと店舗の<br class="sp">総合プロデュース会社です。<br>設計と施工、土地環境のミスマッチによる<br class="sp">無駄な費用や時間を解消し、ワクワクする<br class="sp">住まいや店舗作りを提供します。</p>
+
+            <div class="about__btn">
+              <div class="more-btn">
+                <a href="#">MORE</a>
+              </div>
+              <!-- /.more-btn -->
+            </div>
+            <!-- /.about__btn -->
+          </div>
+          <!-- /.scrollin -->
+
+          <img class="scrollin" src="images/top/about.jpg" alt="イメージ" loading="lazy">
+        </div>
+        <!-- /.about__wrap -->
+      </section>
+
+
+      <!--===============================
+        不動産サイト
+      ================================-->
+      <section class="search scrollin">
+        <div class="wrap">
+          <div class="search__box">
+            <div class="search__txt">
+              <h2 class="search__ttl"><span>不動産サイト</span>はこちら</h2>
+              <p>土地探しから始めることで設計や工事を柔軟に進めることが可能です。<br>夢の家・店舗づくりをここからスタートしませんか。</p>
+
+              <div class="search__btn">
+                <a href="#">エスケイシステム不動産で<br><span>物件・土地を探す
+                  </span></a>
+              </div>
+              <!-- /.search__btn -->
+            </div>
+            <!-- /.search__txt -->
+
+            <div class="search__img">
+              <picture>
+                <source media="(max-width: 767px)" srcset="images/top/sp/search.jpg">
+                <img src="images/top/search.jpg" alt="写真" loading="lazy">
+              </picture>
+            </div>
+            <!-- /.search__img -->
+          </div>
+          <!-- /.search__box -->
+        </div>
+        <!-- /.wrap -->
+      </section>
+
+
+      <!--===============================
+        ページリンク
+      ================================-->
+      <section class="page-link">
+        <div class="wrap">
+          <ul class="page-link-list">
+            <li class="scrollin-3col">
+              <a href="#">
+                <img src="images/top/page_link_01.jpg" alt="イメージ" loading="lazy">
+                <span>リフォーム・新築の流れ</span>
+              </a>
+            </li>
+            <li class="scrollin-3col">
+              <a href="#">
+                <img src="images/top/page_link_02.jpg" alt="イメージ" loading="lazy">
+                <span>よくあるご質問</span>
+              </a>
+            </li>
+            <li class="scrollin-3col">
+              <a href="#">
+                <img src="images/top/page_link_03.jpg" alt="イメージ" loading="lazy">
+                <span>会社概要</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.wrap -->
+      </section>
+
+
+      <!--===============================
+        家づくりの様子
+      ================================-->
+      <section class="state">
+        <div class="wrap">
+          <h2 class="state__ttl scrollin">家づくりの様子</h2>
+
+          <ul class="state-list">
+            <li class="scrollin-3col">
+              <a href="#">
+                <img src="images/top/state_01.jpg" alt="" loading="lazy">
+                <time>2022.04.28</time>
+                <p>佐賀県佐賀市 A様邸の中間気密測定を行いました！</p>
+              </a>
+            </li>
+            <li class="scrollin-3col">
+              <a href="#">
+                <img src="images/top/state_02.jpg" alt="" loading="lazy">
+                <time>2022.04.28</time>
+                <p>佐賀県佐賀市 A様邸の中間気密測定を行いました！</p>
+              </a>
+            </li>
+            <li class="scrollin-3col">
+              <a href="#">
+                <img src="images/top/state_03.jpg" alt="" loading="lazy">
+                <time>2022.04.28</time>
+                <p>佐賀県佐賀市 A様邸の中間気密測定を行いました！</p>
+              </a>
+            </li>
+          </ul>
+          <!-- /.state-list -->
+        </div>
+      </section>
+
+
+      <!--===============================
+        投稿
+      ================================-->
+      <section class="info">
+        <div class="wrap">
+          <div class="info__flex">
+            <div class="info__col scrollin-2col">
+              <h3 class="info__ttl info__ttl--post">最新情報</h3>
+              <ul class="post-list">
+                <li>
+                  <div class="post-list__info">
+                    <time>2022.08.01</time>
+                    <ul class="post-list__category">
+                      <li><a href="#">お知らせ</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.post-list__info -->
+
+                  <a href="#">
+                    <p>ホームページをリニューアルいたしました。</p>
+                  </a>
+                </li>
+                <li>
+                  <div class="post-list__info">
+                    <time>2022.08.01</time>
+                    <ul class="post-list__category">
+                      <li><a href="#">新築・リフォーム</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.post-list__info -->
+
+                  <a href="#">
+                    <p>年末年始のお知らせ</p>
+                  </a>
+                </li>
+                <li>
+                  <div class="post-list__info">
+                    <time>2022.08.01</time>
+                    <ul class="post-list__category">
+                      <li><a href="#">お知らせ</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.post-list__info -->
+
+                  <a href="#">
+                    <p>代表就任のお知らせ</p>
+                  </a>
+                </li>
+                <li>
+                  <div class="post-list__info">
+                    <time>2022.08.01</time>
+                    <ul class="post-list__category">
+                      <li><a href="#">新築・リフォーム</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.post-list__info -->
+
+                  <a href="#">
+                    <p>お客様へ</p>
+                  </a>
+                </li>
+              </ul>
+
+              <div class="info__btn">
+                <div class="more-btn">
+                  <a href="#">more</a>
+                </div>
+                <!-- /.more-btn -->
+              </div>
+              <!-- /.info__btn -->
+            </div>
+            <!-- /.info__col -->
+
+
+            <div class="info__col scrollin-2col">
+              <h3 class="info__ttl info__ttl--magazine">マガジン</h3>
+              <ul class="magazine-list">
+                <li>
+                  <div class="magazine-list__img">
+                    <a href="#">
+                      <img src="images/top/magazine_01.jpg" alt="" loading="lazy">
+                    </a>
+                  </div>
+                  <!-- /.magazine-list__img -->
+
+                  <div class="magazine-list__txt">
+                    <div class="magazine-list__info">
+                      <time>2022.08.01</time>
+                      <a href="#">佐賀ぐーるぐる</a>
+                    </div>
+                    <!-- /.magazine-list__info -->
+
+
+                    <p><a href="#">辛さが100段階。辛いだけでは済まないカレー屋</a></p>
+                  </div>
+                  <!-- /.magazine-list__txt -->
+                </li>
+
+                <li>
+                  <div class="magazine-list__img">
+                    <a href="#">
+                      <img src="images/top/magazine_02.jpg" alt="" loading="lazy">
+                    </a>
+                  </div>
+                  <!-- /.magazine-list__img -->
+
+                  <div class="magazine-list__txt">
+                    <div class="magazine-list__info">
+                      <time>2022.08.01</time>
+                      <a href="#">福岡ぐーるぐる</a>
+                    </div>
+                    <!-- /.magazine-list__info -->
+
+
+                    <p><a href="#">タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</a></p>
+                  </div>
+                  <!-- /.magazine-list__txt -->
+                </li>
+
+                <li>
+                  <div class="magazine-list__img">
+                    <a href="#">
+                      <img src="images/top/magazine_03.jpg" alt="" loading="lazy">
+                    </a>
+                  </div>
+                  <!-- /.magazine-list__img -->
+
+                  <div class="magazine-list__txt">
+                    <div class="magazine-list__info">
+                      <time>2022.08.01</time>
+                      <a href="#">佐賀ぐーるぐる</a>
+                    </div>
+                    <!-- /.magazine-list__info -->
+
+
+                    <p><a href="#">映え確定！きれいな海が見えるカフェ</a></p>
+                  </div>
+                  <!-- /.magazine-list__txt -->
+                </li>
+              </ul>
+
+              <div class="info__btn">
+                <div class="more-btn">
+                  <a href="#">more</a>
+                </div>
+                <!-- /.more-btn -->
+              </div>
+              <!-- /.info__btn -->
+            </div>
+            <!-- /.info__col -->
+          </div>
+          <!-- /.info__flex -->
+        </div>
+        <!-- /.wrap -->
+      </section>
+
+
+
+      <!--===============================
+        お問い合わせ
+      ================================-->
+      <section class="contact scrollin">
+        <h2 class="contact__ttl">お問い合わせ</h2>
+        <p>ちょっとした工事も、土地を探すところから<br class="sp">の住まい・店舗づくりも<br>まずはお気軽にご相談ください。</p>
+
+        <div class="contact__box">
+          <div class="contact-tel">
+            <a href="#">
+              <img src="images/common/icon_tel.png" alt="アイコン" loading="lazy">
+              <p><span>0120-927-502</span><br>9:00〜18:00（定休日／日・祝）</p>
+            </a>
+          </div>
+          <!-- /.contact-tel -->
+
+          <ul class="contact-btn">
+            <li>
+              <a href="#">
+                <p>お問い合わせ<br>無料見積もり</p>
+              </a>
+            </li>
+            <li>
+              <a class="line" href="#">
+                <p>LINEで<br>気軽に相談</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.contact-box -->
+      </section>
+
+
+
+      <section class="area scrollin">
+        <div class="area__flex">
+          <div class="area__txt">
+            <h3 class="area__ttl">施工対応エリア</h3>
+            <h4 class="area__subttl"><span>佐賀県全域・福岡県全域</span><br>地域密着で安心のエスケイシステム</h4>
+
+            <p>エリア外の地域の方もまずはお問い合わせください。<br>柔軟に対応いたします。</p>
+          </div>
+          <!-- /.area__txt -->
+
+          <div class="area-covid">
+            <h3 class="area-covid__ttl">新型コロナウイルス対策実施中</h3>
+            <ul class="area-covid__list">
+              <li>
+                <img src="images/top/covid_01.png" alt="アイコン" loading="lazy">
+                <span>マスク着用</span>
+              </li>
+              <li>
+                <img src="images/top/covid_02.png" alt="アイコン" loading="lazy">
+                <span>消毒液設置</span>
+              </li>
+              <li>
+                <img src="images/top/covid_03.png" alt="アイコン" loading="lazy">
+                <span>検温管理</span>
+              </li>
+            </ul>
+          </div>
+          <!-- /.area-covid -->
+        </div>
+        <!-- /.area__flex -->
+      </section>
+
+
+
+      <!--===============================
+        SNS
+      ================================-->
+      <aside class="sns-link scrollin">
+        <ul>
+          <li>
+            <a href="#">
+              <picture>
+                <source media="(max-width: 767px)" srcset="images/common/sp/btn_facebook.png">
+                <img src="images/common/btn_facebook.png" alt="FACEBOOK" loading="lazy">
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <picture>
+                <source media="(max-width: 767px)" srcset="images/common/sp/btn_instagram.png">
+                <img src="images/common/btn_instagram.png" alt="INSTAGRAM" loading="lazy">
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </article>
+  </main>
+
+
+  <!---=================================
+    FOOTER
+  ==================================--->
+  <footer id="footer">
+    <div class="footer-contact">
+      <div class="footer-contact-search">
+        <a href="#">
+          <p>不動産サイトはこちら<span>物件・土地を探す</span></p>
+        </a>
+      </div>
+      <!-- /.footer-contact-search -->
+
+      <div class="footer-contact-tel">
+        <ul class="footer-contact-tel__list">
+          <li>
+            <span>佐賀本店</span>
+            <span>0120-927-502</span>
+            <span>9:00～18:00（定休日／日・祝）</span>
+          </li>
+          <li>
+            <span>佐賀本店</span>
+            <span>0120-927-502</span>
+            <span>9:00～18:00（定休日／日・祝）</span>
+          </li>
+        </ul>
+      </div>
+      <!-- /.footer-contact-tel -->
+
+      <div class="footer-contact-line">
+        <a href="#">LINEで相談</a>
+      </div>
+      <!-- /.footer-contact-lin -->
+    </div>
+    <!-- /.footer-contact -->
+
+    <div class="footer-contents">
+      <div class="footer-contents__wrap">
+        <div class="footer-info">
+          <div class="footer-logo">
+            <a href="#">
+              <img src="images/common/logo.svg" alt="ロゴ" loading="lazy">
+            </a>
+          </div>
+          <!-- /.footer-logo -->
+
+          <div class="footer-sns">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="images/common/icon_facebook.png" alt="FACEBOOK" loading="lazy">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/common/icon_instagram.png" alt="INSTAGRAM" loading="lazy">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/common/icon_line.png" alt="LINE" loading="lazy">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.footer-sns -->
+
+          <div class="footer-address">
+            <p>〒849-0937<br>佐賀県佐賀市鍋島3丁目9-2<br>TEL：0952-31-5884<br>FAX：0952-31-5889</p>
+          </div>
+          <!-- /.footer-address -->
+        </div>
+        <!-- /.footer-info -->
+
+
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li><a href="#">ホーム</a></li>
+            <li><a href="#">エスケイシステムにできること</a></li>
+            <li>
+              <a href="#">施工事例</a>
+
+              <div class="footer-nav-list__flex">
+                <ul class="footer-nav-sublist">
+                  <li><a href="#">新築</a></li>
+                  <li><a href="#">リフォーム・増改築</a></li>
+                  <li><a href="#">トイレ</a></li>
+                  <li><a href="#">浴室・洗面</a></li>
+                  <li><a href="#">その他</a></li>
+                </ul>
+
+                <ul class="footer-nav-sublist">
+                  <li><a href="#">リノベーション</a></li>
+                  <li><a href="#">店舗</a></li>
+                  <li><a href="#">キッチン</a></li>
+                  <li><a href="#">外構・エクステリア</a></li>
+                </ul>
+              </div>
+              <!-- /.footer-nav-list__flex -->
+            </li>
+            <li><a href="#">よくあるご質問</a></li>
+          </ul>
+
+          <ul class="footer-nav-list">
+            <li><a href="#">スタッフ紹介</a></li>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">お知らせ</a></li>
+            <li><a href="#">施工中の様子</a></li>
+            <li>
+              <a href="#">マガジン</a>
+
+              <ul class="footer-nav-sublist">
+                <li><a href="#">佐賀ぐーるぐる</a></li>
+                <li><a href="#">福岡ぐーるぐる</a></li>
+              </ul>
+            </li>
+            <li><a href="#">プライバシーポリシー</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /.footer-contents__wrap -->
+
+
+      <div id="to-top" class="scroll-link">
+        <a href="#body"><img src="images/common/to_top.png" alt="TOP" loading="lazy"></a>
+      </div>
+      <!-- /#to-top -->
+    </div>
+    <!-- /.footer-contents -->
+
+    <div class="copyright">
+      <small>© 株式会社 エスケイシステム</small>
+    </div>
+    <!-- /.copyright -->
+  </footer>
+
+
+  <div class="fixed-bnr">
+    <ul class="fixed-bnr__list">
+      <li>
+        <a href="#">
+          <img src="images/common/icon_window.png" alt="アイコン" loading="lazy">
+          <span>物件・土地<br>を探す</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/common/icon_tel.png" alt="アイコン" loading="lazy">
+          <span>佐賀本店</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/common/icon_tel.png" alt="アイコン" loading="lazy">
+          <span>北九州支店</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="fixed-bnr__line">
+      <a href="#"><img src="images/common/icon_line.png" alt="LINE">LINEで相談</a>
+    </div>
+    <!-- /.fixed-bnr__line -->
+  </div>
+  <!-- /.fixed-bnr -->
+
+</body>
+</html>
