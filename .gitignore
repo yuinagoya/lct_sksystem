@@ -1,0 +1,9 @@
+node_modules
+*/**/.vscode
+*/**/.DS_Store
+*/**/.sass-cache/
+*/**/*.ctp
+*/**/*.pm
+*/**/*.dat
+*/**/Thumbs.db
+*/**/dwsync.xhtml
