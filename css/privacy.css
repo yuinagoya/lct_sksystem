@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
+.sub_ttl01 {
+  padding-top: 2em;
+}
+
+ul li, ol li {
+  margin: 1em 0;
+}
+
+p + p {
+  margin-top: 1em;
+}

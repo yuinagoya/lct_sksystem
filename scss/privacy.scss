@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+// Import
+@import "include/_variable";
+@import "include/_mixin";
+
+//====================================
+//  privacy
+//====================================
+
+.sub_ttl01{
+  padding-top: 2em;
+
+}
+ul,ol{
+  li{
+    margin: 1em 0;
+  }
+}
+p{
+  & + p{
+    margin-top: 1em;
+  }
+}
