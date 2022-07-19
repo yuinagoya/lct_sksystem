@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
+.news__sec01 {
+  padding-bottom: 160px;
+}
+
+@media screen and (max-width: 767px) {
+  .news__sec01 {
+    padding-bottom: 4em;
+  }
+}

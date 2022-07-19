@@ -5,23 +5,18 @@
 @import "include/_mixin";
 
 //====================================
-//  privacy
+//  case
 //====================================
+
 .mv,.sub_first{
-  background: #faf9e4;
 }
-.sub_ttl01:not(:first-of-type){
-  padding-top: 2em;
-  
+
+.news__sec01{
+  padding-bottom: 160px;
+  @include mq(sp) {
+    padding-bottom: 4em;
+  }
 
 }
-ul,ol{
-  li{
-    margin: 1em 0;
-  }
-}
-p{
-  & + p{
-    margin-top: 1em;
-  }
-}
+
+
