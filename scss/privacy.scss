@@ -7,9 +7,12 @@
 //====================================
 //  privacy
 //====================================
-
-.sub_ttl01{
+.sub_first{
+  background: #faf9e4;
+}
+.sub_ttl01:not(:first-of-type){
   padding-top: 2em;
+  
 
 }
 ul,ol{

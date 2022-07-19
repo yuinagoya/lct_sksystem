@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
-.sub_ttl01 {
+.sub_first {
+  background: #faf9e4;
+}
+
+.sub_ttl01:not(:first-of-type) {
   padding-top: 2em;
 }
 

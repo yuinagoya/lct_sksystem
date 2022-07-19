@@ -12,6 +12,175 @@
   background: #FFF;
 }
 
+.case__sec01{
+  padding-bottom: 2em;
+  .case__ttl{
+    margin-bottom: 56px;
+    @include mq(sp) {
+      margin-bottom: 2em;
+    }
+    &::before {
+      top: -58px;
+      left: -95px;
+      width: 201px;
+      height: 136px;
+      background: url("../images/case/case_cat_ttl.png") center/contain no-repeat;
+      z-index: -1;
+      @include mq(sp) {
+        top: -#{vw(40)};
+        left: -#{vw(65)};
+        width: vw(130);
+        height: vw(100);
+      }
+    }
+  }
+
+  .case-nav{
+    li{
+      @include mq(pc) {
+        width: calc(100% / 5);
+      }
+      &:nth-of-type(1){
+        @include mq(sp) {
+          width: 100%;
+          border-left: 1px dashed #cccccc;
+        }
+      }
+      &:nth-of-type(3n + 2){
+        @include mq(sp) {
+          border-left: 1px dashed #cccccc;
+        }
+      }
+      &:nth-of-type(6){
+        border-left: 1px dashed #cccccc;
+      }
+    }
+  }
+  .case__tag{
+    text-align: center;
+    position: relative;
+    
+    h3{
+      font-size: 2.4rem;
+      margin-bottom: 1em;
+      line-height: 1.58;
+      @include mq(sp) {
+      margin-left: #{vw(20)};
+      @include fz(24);
+        margin-bottom: 1em;
+      }
+    }
+    .search-block{
+      background: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 0;
+      padding: 0;
+      @include mq(sp) {
+        position: relative;
+        align-items: center;
+        margin-bottom: 2em;
+      }
+      .search-txt{
+        margin-right: 1.4em;
+      }
+      input[type="text"]{
+        width: calc(220px - 2em );
+        padding: .8em 1em;
+        @include mq(sp) {
+          margin-bottom: 0;
+          vertical-align: middle;
+        }
+          
+      }
+      input[type="submit"] {
+        background-color: #ccc;
+        background-position: center;
+        width: 54px;
+        padding: 0;
+        @include mq(sp) {
+          width: #{vw(54)};
+          height: #{vw(42)};
+          vertical-align: middle;
+        }
+      }
+    }
+    .case-list__tag{
+      justify-content: center;
+      padding: 0 50px;
+      @include mq(sp) {
+        padding: 0;
+      }
+      li{
+        margin: 0 .5em .5em;
+        
+      }
+    }
+  }
+  .case__search{
+    background: #faf9e4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3em 1em;
+    margin-top: 50px;
+    @include mq(sp) {
+      margin-top: 2em;
+      flex-wrap: wrap;
+      
+    }
+    &__head{
+      font-size: 1.6rem;
+      margin-right: 1em;
+      position: relative;
+      padding-left: 1.25em;
+      @include mq(sp) {
+        @include fz(16);
+      }
+      &:before{
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8px 6px 0 6px;
+        border-radius: 2px;
+        border-color: $c_base transparent transparent transparent;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        @include mq(sp) {
+
+        }
+      }
+    }
+    &__word{
+      font-size: 2.4rem;
+      @include mq(sp) {
+        width: 100%;
+        text-align: center;
+        margin-top: .3em;
+        @include fz(20);
+      }
+    }
+  }
+}
+.case__sec02{
+  padding-bottom: 160px;
+  @include mq(sp) {
+    padding-bottom: 4em;
+  }
+  .case-count{
+    margin: 0 0 1em .5em;
+    font-size: 1.6rem;
+    @include mq(sp) {
+      @include fz(16);
+    }
+  }
+}
+
 
 //====================================
 //  case-single
@@ -22,7 +191,7 @@
     margin-bottom: 2.2rem;
     position: relative;
     @include mq(sp) {
-      margin: #{vw(40)} 0 #{vw(20)};
+      margin: 0 0 #{vw(20)};
     }
     &:before{
       content: "";

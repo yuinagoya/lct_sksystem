@@ -119,8 +119,13 @@
 }
 
 .sub_first {
-  background: #faf9e4;
   padding-bottom: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .sub_first {
+    padding-top: 4em;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -195,6 +200,121 @@ ol li {
     padding-bottom: 1em;
     border-bottom: 1px dashed #CCC;
   }
+}
+
+.pagenavi {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 767px) {
+  .pagenavi {
+    font-size: 16px;
+    font-size: 4.26667vw;
+    margin: 0 -1em;
+  }
+}
+
+.pagenavi a, .pagenavi .extend {
+  color: #2fa876;
+  margin: 0 1em 1em;
+  display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+  .pagenavi a, .pagenavi .extend {
+    margin: 0 .4em 1em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pagenavi .extend {
+    font-size: 12px;
+    font-size: 3.2vw;
+    margin: 0 .3em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pagenavi .pages {
+    display: block;
+    margin-bottom: 1em;
+  }
+}
+
+.pagenavi .page {
+  padding: .5em 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .pagenavi .page {
+    padding: .5em .5em;
+  }
+}
+
+.pagenavi .current {
+  background: #f2f2f2;
+  border-radius: 3px;
+  padding: .4em .9em;
+  display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+  .pagenavi .current {
+    padding: .4em .8em;
+  }
+}
+
+.pagenavi .first, .pagenavi .last {
+  border-bottom: 1px solid #2fa876;
+}
+
+.pagenavi .previouspostslink, .pagenavi .nextpostslink {
+  text-indent: -100px;
+  overflow: hidden;
+  width: 20px;
+  height: 40px;
+  position: relative;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+  .pagenavi .previouspostslink, .pagenavi .nextpostslink {
+    width: 5.33333vw;
+    height: 10.66667vw;
+  }
+}
+
+.pagenavi .previouspostslink:before, .pagenavi .nextpostslink:before {
+  content: "";
+  background: url("../images/common/ico_pagearrow.png") no-repeat center/contain;
+  display: inline-block;
+  width: 100%;
+  height: 7px;
+  position: absolute;
+  top: 23px;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .pagenavi .previouspostslink:before, .pagenavi .nextpostslink:before {
+    height: 1.86667vw;
+    top: 6.66667vw;
+  }
+}
+
+.pagenavi .nextpostslink {
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.pagenavi a {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.pagenavi a:hover {
+  opacity: .7;
 }
 
 .case {

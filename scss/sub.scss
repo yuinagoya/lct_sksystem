@@ -105,8 +105,11 @@
 //====================================
 
 .sub_first{
-  background: #faf9e4;
+  //background: #faf9e4;
   padding-bottom: 100px;
+  @include mq(sp) {
+    padding-top: 4em;
+  }
   .wrap{
     //margin-top: -4rem;
     @include mq(sp) {
@@ -172,8 +175,94 @@ ol{
     }
   }
 }
+//====================================
+//  ページ送り
+//====================================
+.pagenavi{
+  text-align: center;
+  font-size: 1.6rem;
+  @include mq(sp) {
+    @include fz(16);
+    margin: 0 -1em;
+  }
+  a,.extend{
+    color: $c_base;
+    margin: 0 1em 1em;
+    display: inline-block;
+    @include mq(sp) {
+      margin: 0 .4em 1em;
+    }
+  }
+  .extend{
+    @include mq(sp) {
+      @include fz(12);
+      margin: 0 .3em;
+    }
+  }
+  .pages{
+    @include mq(sp) {
+      display: block;
+      margin-bottom: 1em;
+    }
+  }
+  .page{
+    padding: .5em 1em;
+    @include mq(sp) {
+      padding: .5em .5em;
+    }
+  }
+  .current{
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding: .4em .9em;
+    display: inline-block;
+    @include mq(sp) {
+      padding: .4em .8em;
+    }
+  }
+  .first,.last{
+    border-bottom: 1px solid $c_base;
+    @include mq(sp) {
+      
+    }
+  }
+  .previouspostslink,.nextpostslink{
+    text-indent: -100px;
+    overflow: hidden;
+    width: 20px;
+    height: 40px;
+    position: relative;
+    vertical-align: middle;
+    @include mq(sp) {
+      width: #{vw(20)};
+      height: #{vw(40)};
+    }
+    &:before{
+      content: "";
+      background:  url("../images/common/ico_pagearrow.png") no-repeat center/contain;
+      display: inline-block;
+      width: 100%;
+      height: 7px;
+      position: absolute;
+      top: 23px;
+      left: 0;
+      @include mq(sp) {
+        height: #{vw(7)};
+        top: #{vw(25)};
+      }
 
-
+    }
+  }
+  .nextpostslink{
+    transform: scale(-1, 1);
+  }
+  a{
+    transition: .3s;
+    &:hover{
+      opacity: .7;
+    }
+  }
+}
 //====================================
 //  施工事例
 //====================================
