@@ -121,6 +121,38 @@
 //====================================
 //  パーツ
 //====================================
+.sub__ttl__main {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.4;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto 0.5em;
+  text-align: center;
+  padding-bottom: 30px;
+
+  @include mq(sp) {
+    margin: 0 auto 1em;
+    padding-bottom: 1em;
+
+    @include fz(20);
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 87px;
+    height: 0;
+    border-bottom: 1px dashed $c_base;
+    margin: auto;
+  }
+
+}
+
 .sub_ttl01 {
   font-size: 3rem;
   font-weight: bold;
@@ -134,6 +166,7 @@
     @include fz(26);
   }
 }
+
 ol{
   li{
     

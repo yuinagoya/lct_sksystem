@@ -1,10 +1,223 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
 .news__sec01 {
+  padding-top: 40px;
   padding-bottom: 160px;
 }
 
 @media screen and (max-width: 767px) {
   .news__sec01 {
+    padding-top: 4em;
     padding-bottom: 4em;
+  }
+}
+
+.news__category {
+  border-radius: 10px;
+  background: #f2f2f2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 17px 35px;
+  margin-bottom: 2.5em;
+}
+
+@media screen and (max-width: 767px) {
+  .news__category {
+    padding: 1.5em .5em;
+    display: block;
+  }
+}
+
+.news__category__head {
+  font-size: 2.4rem;
+  margin-right: 36px;
+}
+
+@media screen and (max-width: 767px) {
+  .news__category__head {
+    font-size: 20px;
+    font-size: 5.33333vw;
+    margin: 0 0 1em;
+    text-align: center;
+  }
+}
+
+.news__category__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  gap: 8px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .news__category__list {
+    gap: 2.13333vw;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: .5em;
+  }
+}
+
+.news__category__list a {
+  font-size: 1.4rem;
+  line-height: 1;
+  padding: .8em 2.6em .8em 2.5em;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #2fa876;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d2dfda;
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+@media screen and (max-width: 767px) {
+  .news__category__list a {
+    padding: 2.13333vw 6.66667vw;
+    border-radius: 5.33333vw;
+    font-size: 14px;
+    font-size: 3.73333vw;
+  }
+}
+
+.news__category__list a:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 3px 0 3px;
+  border-radius: 2px;
+  border-color: #2fa876 transparent transparent transparent;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.news__category__list a:hover {
+  opacity: .7;
+}
+
+.post-list {
+  margin-bottom: 4.5em;
+}
+
+.post-list > li {
+  border-bottom: 1px dashed #776756;
+}
+
+.post-list > li > a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 767px) {
+  .post-list > li > a {
+    display: block;
+    padding: 4vw 0 3.73333vw;
+  }
+}
+
+.post-list > li > a:hover {
+  opacity: 0.7;
+}
+
+.post-list__info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  width: 295px;
+}
+
+@media screen and (max-width: 767px) {
+  .post-list__info {
+    gap: 4.26667vw;
+    padding-bottom: 1.6vw;
+  }
+}
+
+.post-list__info time {
+  font-size: 1.4rem;
+  line-height: 1;
+  display: block;
+  padding-top: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .post-list__info time {
+    padding-top: 1.06667vw;
+    font-size: 14px;
+    font-size: 3.73333vw;
+  }
+}
+
+.post-list__category {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  gap: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .post-list__category {
+    gap: 1.06667vw;
+  }
+}
+
+.post-list__category li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 0 9px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: #332420;
+}
+
+@media screen and (max-width: 767px) {
+  .post-list__category li {
+    padding: 0 2.4vw 0.26667vw;
+    border-radius: 5.33333vw;
+    font-size: 12px;
+    font-size: 3.2vw;
   }
 }

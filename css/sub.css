@@ -133,6 +133,41 @@
   }
 }
 
+.sub__ttl__main {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.4;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 0.5em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .sub__ttl__main {
+    margin: 0 auto 1em;
+    padding-bottom: 1em;
+    font-size: 20px;
+    font-size: 5.33333vw;
+  }
+}
+
+.sub__ttl__main::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 87px;
+  height: 0;
+  border-bottom: 1px dashed #2fa876;
+  margin: auto;
+}
+
 .sub_ttl01 {
   font-size: 3rem;
   font-weight: bold;
