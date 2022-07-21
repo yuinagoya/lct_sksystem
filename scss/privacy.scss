@@ -7,21 +7,47 @@
 //====================================
 //  privacy
 //====================================
-.mv,.sub_first{
-  background: #faf9e4;
+.sub_first{
+  padding-bottom: 200px;
+  @include mq(sp) {
+    padding-bottom: 4em;
+  }
 }
 .sub_ttl01:not(:first-of-type){
-  padding-top: 2em;
-  
+  margin-top: 2.8em;
+  @include mq(sp) {
+    margin-top: 2em;
+  }
 
+}
+h3{
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1em;
+  @include mq(sp) {
+    //@include fz(18);
+  }
 }
 ul,ol{
   li{
-    margin: 1em 0;
+    //margin: 1em 0;
   }
+}
+.list_kana{
+  margin-bottom: 2.5em;
 }
 p{
   & + p{
-    margin-top: 1em;
+    
+  }
+  & + p ,& + ul ,& + h3{
+    margin-top: 2.5em;
+  }
+  a{
+    color: $c_base;
+    text-decoration: underline;
+    &:hover{
+      text-decoration: none;
+    }
   }
 }

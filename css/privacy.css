@@ -1,16 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
-.mv, .sub_first {
-  background: #faf9e4;
+.sub_first {
+  padding-bottom: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .sub_first {
+    padding-bottom: 4em;
+  }
 }
 
 .sub_ttl01:not(:first-of-type) {
-  padding-top: 2em;
+  margin-top: 2.8em;
 }
 
-ul li, ol li {
-  margin: 1em 0;
+@media screen and (max-width: 767px) {
+  .sub_ttl01:not(:first-of-type) {
+    margin-top: 2em;
+  }
 }
 
-p + p {
-  margin-top: 1em;
+h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.list_kana {
+  margin-bottom: 2.5em;
+}
+
+p + p, p + ul, p + h3 {
+  margin-top: 2.5em;
+}
+
+p a {
+  color: #2fa876;
+  text-decoration: underline;
+}
+
+p a:hover {
+  text-decoration: none;
 }
