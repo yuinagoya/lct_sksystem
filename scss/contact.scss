@@ -411,6 +411,18 @@
       padding:  1.2em 1em;
     }
   }
+  .zip-mark{
+    display: inline-block;
+    float: left;
+    @include mq(pc) {
+      line-height: 61px;
+      width: 26px;
+    }
+    @include mq(sp) {
+      line-height: vw(55);
+      width: vw(20);
+    }
+  }
   .p-postal-code{
     @include mq(pc) {
       width: 150px;
@@ -428,8 +440,20 @@
   .p-region{
 
     @include mq(pc) {
-      margin-left: 2px;
+      margin-left: 26px;
       width: 580px;
+    }
+    @include mq(sp) {
+      width: calc(100% - #{vw(20)});
+      margin-left: vw(20);
+    }
+    & + p{
+      @include mq(pc) {
+        margin-left: 26px;
+      }
+      @include mq(sp) {
+          margin-left: vw(20);
+        }
     }
   }
   .contact__agree{

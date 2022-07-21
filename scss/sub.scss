@@ -154,29 +154,42 @@
 }
 
 .sub_ttl01 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: bold;
   line-height: 1.2;
-  margin: 0 auto 1em;
-  text-align: center;
+  margin: 0 0 1.3em;
+  color: $c_base;
 
   @include mq(sp) {
-    margin: 0 auto .5em;
+    margin: 0 0 .5em;
 
-    @include fz(26);
+    @include fz(24);
   }
 }
 
-ol{
-  li{
+.list_num{
+  & > li{
     
-    list-style-position: inside;
+    list-style-type: none;
+    counter-increment: cnt;
+    &:before {
+      content: "(" counter(cnt) ") ";
+    }
   }
 }
 .list_disc{
   li{
     list-style: disc;
     list-style-position: inside;
+  }
+}
+.list_kana{
+  & > li{
+    list-style-type: none;
+    counter-increment: number 1;
+    &:before {
+      content: "(" counter(number,katakana-iroha)  ") ";
+    }
   }
 }
 .flex-block{

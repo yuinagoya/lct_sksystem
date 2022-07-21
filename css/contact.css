@@ -587,6 +587,25 @@
   }
 }
 
+.contact__form .zip-mark {
+  display: inline-block;
+  float: left;
+}
+
+@media screen and (min-width: 768px) {
+  .contact__form .zip-mark {
+    line-height: 61px;
+    width: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact__form .zip-mark {
+    line-height: 14.66667vw;
+    width: 5.33333vw;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .contact__form .p-postal-code {
     width: 150px;
@@ -628,8 +647,27 @@
 
 @media screen and (min-width: 768px) {
   .contact__form .p-region {
-    margin-left: 2px;
+    margin-left: 26px;
     width: 580px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact__form .p-region {
+    width: calc(100% - 5.33333vw);
+    margin-left: 5.33333vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact__form .p-region + p {
+    margin-left: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact__form .p-region + p {
+    margin-left: 5.33333vw;
   }
 }
 
