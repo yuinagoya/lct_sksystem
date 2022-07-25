@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script>
+    if (!/iPhone|iPod|Android/.test(navigator.userAgent)) {
+      document.querySelector('meta[name=viewport]').content = 'width=1200';
+    }
+  </script>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="theme-color">
+  <title>株式会社エスケイシステム</title>
+
+  <link rel="stylesheet" type="text/css" href="css/lib/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/lib/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="css/common.css" />
+  <link rel="stylesheet" type="text/css" href="css/sub.css" />
+  <link rel="stylesheet" type="text/css" href="css/privacy.css" />
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/lib/slick.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/sub.js"></script>
+</head>
+
+<body id="body">
+  <div id="loading">
+    <div id="loading__img">
+      <img src="images/top/loading.svg" alt="logo">
+      <span>loading...</span>
+    </div>
+    <!-- /.loading__img -->
+
+    <div class="loading__splash"></div>
+    <!-- /.loading__splash -->
+  </div>
+  <!-- /.loading -->
+
+  <!---=================================
+    HEADER
+  ==================================--->
+  <header id="header">
+    <div class="header__wrap">
+      <!---===========================================
+      ***** 下層ページではh1をdivに変更して下さい *****
+      （実装時にこちらのコメントは削除）
+      ============================================--->
+      <div class="header-logo">
+        <a href="/">
+          <img src="images/common/logo.svg" alt="logo">
+        </a>
+      </div>
+      <!-- /.header-logo -->
+
+      <nav class="global-nav">
+        <ul class="global-nav-list">
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">エスケイシステムにできること</a></li>
+          <li><a href="#">施工事例</a></li>
+          <li><a href="#">よくあるご質問</a></li>
+          <li><a href="#">会社概要</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /.header__wrap -->
+  </header>
+
+
+  <div id="drawer-trigger"><span>menu</span></div>
+
+  <div id="drawer">
+    <div class="drawer__wrap">
+      <nav class="drawer-nav">
+        <ul class="drawer-nav-list">
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">エスケイシステムに<br class="pc">できること</a></li>
+          <li>
+            <a class="trigger" href="#">施工事例</a>
+            <ul class="drawer-nav-sublist">
+              <li><a href="#">新築</a></li>
+              <li><a href="#">リノベーション</a></li>
+              <li><a href="#">リフォーム・増改築</a></li>
+              <li><a href="#">店舗</a></li>
+              <li><a href="#">トイレ</a></li>
+              <li><a href="#">キッチン</a></li>
+              <li><a href="#">浴室・洗面</a></li>
+              <li><a href="#">外構・エクステリア</a></li>
+              <li><a href="#">その他</a></li>
+            </ul>
+          </li>
+          <li><a href="#">よくあるご質問</a></li>
+        </ul>
+
+        <ul class="drawer-nav-list">
+          <li><a href="#">会社概要</a></li>
+          <li><a href="#">お知らせ</a></li>
+          <li><a href="#">施工中の様子</a></li>
+          <li>
+            <a class="trigger" href="#">マガジン</a>
+
+            <ul class="drawer-nav-sublist">
+              <li><a href="#">佐賀ぐーるぐる</a></li>
+              <li><a href="#">福岡ぐーるぐる</a></li>
+            </ul>
+          </li>
+          <li><a href="#">プライバシーポリシー</a></li>
+        </ul>
+      </nav>
+
+      <div class="drawer-content">
+        <h3 class="drawer-content__ttl">リフォーム・新築・土地探しに関する<br>お問い合わせ</h3>
+
+        <div class="drawer-tel">
+          <ul>
+            <li>
+              <span class="drawer-tel__num">
+                佐賀本店<span>0120-927-502</span>
+              </span>
+              <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜18:00（定休日:日・祝）</span>
+            </li>
+            <li>
+              <span class="drawer-tel__num">
+                北九州支店<span>0120-927-502</span>
+              </span>
+              <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜18:00（定休日:日・祝）</span>
+            </li>
+          </ul>
+        </div>
+        <!-- /.drawer-tel -->
+
+        <div class="drawer-contact">
+          <ul>
+            <li>
+              <a href="#">お問い合わせ・無料見積もり</a>
+            </li>
+            <li>
+              <a class="line" href="#">LINEで気軽に相談</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.drawer-contact -->
+
+
+        <h3 class="drawer-content__ttl">土地から探せます</h3>
+        <div class="drawer-search">
+          <a href="#">不動産サイトはこちら<span>物件・土地を探す</span></a>
+        </div>
+        <!-- /.drawer-search -->
+      </div>
+      <!-- /.drawer-content -->
+    </div>
+    <!-- /.drawer__wrap -->
+  </div>
+  <!-- /#drawer -->
+
+  <!---=================================
+    MAIN
+  ==================================--->
+  <main id="main" class="page-faq">
+    <article>
+      <section class="mv">
+        <div class="mv__img">
+          <picture>
+            <source media="(max-width: 767px)" srcset="images/faq/sp/mv.png">
+            <img src="images/faq/mv.png" alt="MV" loading="lazy">
+          </picture>
+        </div>
+        <!-- /.mv__img -->
+
+        <div class="mv__txt">
+          <h1>
+            <span class="ja">よくあるご質問</span>
+            <span class="en">
+              <picture>
+                <img src="images/faq/mv_en.png" alt="QandA" loading="lazy">
+              </picture>
+            </span>
+          </h1>
+        </div>
+        <!-- /.mv__txt -->
+        <ul class="breadcrumb">
+          <li class="home"><a href="/">ホーム</a></li>
+          <li class="crrent"><span class="arrow">&gt;</span>よくあるご質問</li>
+        </ul>
+      </section>
+
+
+      <section class="sub_first">
+        <div class="wrap">
+          <div class="scrollin" data-wow-offset="200">
+            <h2 class="sub__ttl__main">よくあるご質問</h2>
+
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">土地から探しているのですが、対応エリアは相談できますか？</h2>
+              <p class="cont_a">佐賀県全域と福岡県を基本としていますが、エリアに関しては柔軟に対応いたしますのでまずはご相談ください。佐賀県全域と福岡県を基本としていますが、エリアに関しては柔軟に対応いたしますのでまずはご相談ください。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">リフォームか建て替えか迷ってるのですが…</h2>
+              <p class="cont_a">当社では土地探しから新築、今の土地での建て替え、建物を活かしたリフォーム、全てが得意分野です。<br>
+                迷いのある段階でも状況によってベストなプランを提案いたしますのでお気軽にご相談ください。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">増築をお願いしたいのですが…</h2>
+              <p class="cont_a">増築や減築は法的な制限によりご希望通りにいかない場合がございます。<br>
+                可能な範囲で最大限イメージに近づけるようプランニングしますので、まずはご希望をお伝えください。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">見積もり相談の前に準備するものはありますか？</h2>
+              <p class="cont_a">特にご準備はいりませんが、今お困りのことを考えておいていただいたり、ご希望の雰囲気が伝わるような画像などがあればイメージの共有がしやすくなりますので助かります。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">現地調査なしでの見積もりは可能ですか？</h2>
+              <p class="cont_a">現地調査をしないと精度の高い見積もりができず、追加見積もりとなりかねませんので、申し訳ありませんが当社では現地調査なしのお見積りは承ることができません。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">見積もりには時間がかかりますか？</h2>
+              <p class="cont_a">追加請求を極力避けるために細かい調査の上、お見積りをお出ししていますので、ある程度のお時間をいただいています。<br>
+                それでもお急ぎの場合は、できる限りの努力をしますので初回打ち合わせ時に遠慮なくお伝えください。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">予算が決まっていますが、何を優先していいかわかりません。</h2>
+              <p class="cont_a">ご予算内でご希望に沿ったプランを提案させていただきます。<br>
+                また少し先を考えて段階的なプランニングも可能かと思いますので、細かくイメージをお伝えいただければと思います。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">打ち合わせで完成をイメージできるか不安なのですが…</h2>
+              <p class="cont_a">実際のサンプル素材や、立体的な完成イメージ図（パース？）、過去の施工実績から資料などをご用意しお客様のイメージが湧きやすいようにご説明させていただきますのでご安心ください。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">見積もりは無料ですか？</h2>
+              <p class="cont_a">お見積りは無料です。またお見積り後、契約に至らない場合でもしつこい営業は致しませんので、安心してご相談ください。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">相見積もりを取る予定なのですが…</h2>
+              <p class="cont_a">多くのお客様が相見積もりをとった上で判断されています。<br>
+                安易に安さ自慢やスピード自慢の業者を選ばれると後が大変なので選ぶ際のポイントもお伝えしています。<br>
+                ぜひお気軽にご相談ください。</p>
+            </div>
+
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">工事中は不在にしますが大丈夫ですか？</h2>
+              <p class="cont_a">基本的にはご不在でも問題ございませんが、できれば立ち会いしていただきたいという部分もありますので、お打ち合わせにて調整させていただければと思います。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">リフォーム時に在宅していても大丈夫ですか？</h2>
+              <p class="cont_a">規模や内容にもよりますが、基本的には可能です。<br>
+                できるだけご要望に合わせてスケジュールを組みますので、まずはご相談ください。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">小さい工事もお願いできますか？</h2>
+              <p class="cont_a">大きな工事も得意ですが、小さい工事も実績が多く安心してご依頼いただけます。<br>
+                水回りリフォームや特殊な工事も可能です。<br>
+                どこに頼んでいいかわからないような工事も、まずはお問い合わせください。<br>
+                →#小さい工事　例はこちらをご確認ください。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">一部だけのリフォームもお願いできますか？</h2>
+              <p class="cont_a">必要な部分だけでも承ります。また全体を見て老朽化が懸念される場合など状況に応じて最善と思われる提案をさせていただくように心がけていますので、ついでのご相談も遠慮なくお申し付けください。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">工事後に気になるところがあったらどうしたらいいですか？</h2>
+              <p class="cont_a">気になった時点でお伝えいただき、必要あればお打ち合わせもいたします。<br>
+                またお客様立ち会いのもとで完了検査を行いますので、そのタイミングにはこちらからもお伺いさせていただきます。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">支払い方法は選べますか？</h2>
+              <p class="cont_a">現金/銀行振込になります。<br>
+                またローンについても相談可能ですので、各種手続きについてもサポートいたしますので不安がありましたらまずはご相談ください。</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">工事後に気になるところがあったらどうしたらいいですか？</h2>
+              <p class="cont_a">zoomでの打ち合わせもできますので、まずはLineかフォームからお問い合わせください。（お問い合わせページへリンク）</p>
+            </div>
+            <div class="faq_wrap">
+              <h2 class="sub_ttl_q">アフターケアはありますか？</h2>
+              <p class="cont_a">新築の場合は、完了検査後に最高10年までの保証書をお渡ししていますが、日頃からお問い合わせしやすい雰囲気づくりを心がけておりますので何かありましたらお気軽にお問い合わせください。</p>
+            </div>
+          </div>
+        </div>
+        <!-- /.wrap -->
+      </section>
+
+    </article>
+  </main>
+
+
+  <!---=================================
+    FOOTER
+  ==================================--->
+  <footer id="footer">
+    <div class="footer-contact scrollin">
+      <h2 class="footer-contact__ttl">お問い合わせ</h2>
+      <p>ちょっとした工事も、土地を探すところから<br class="sp">の住まい・店舗づくりも<br>まずはお気軽にご相談ください。</p>
+
+      <div class="footer-contact__box">
+        <div class="footer-contact-tel">
+          <a href="#">
+            <img src="images/common/icon_tel.png" alt="アイコン" loading="lazy">
+            <p><span>0120-927-502</span><br>9:00〜18:00（定休日／日・祝）</p>
+          </a>
+        </div>
+        <!-- /.contact-tel -->
+
+        <ul class="footer-contact-btn">
+          <li>
+            <a href="#">
+              <p>お問い合わせ<br>無料見積もり</p>
+            </a>
+          </li>
+          <li>
+            <a class="line" href="#">
+              <p>LINEで<br>気軽に相談</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.contact-box -->
+    </div>
+    <!-- /.contact -->
+
+
+
+    <div class="footer-area scrollin">
+      <div class="footer-area__flex">
+        <div class="footer-area__txt">
+          <h3 class="footer-area__ttl">施工対応エリア</h3>
+          <h4 class="footer-area__subttl"><span>佐賀県全域・福岡県全域</span><br>地域密着で安心のエスケイシステム</h4>
+
+          <p>エリア外の地域の方もまずはお問い合わせください。<br>柔軟に対応いたします。</p>
+        </div>
+        <!-- /.area__txt -->
+
+        <div class="footer-area-covid">
+          <h3 class="footer-area-covid__ttl">新型コロナウイルス対策実施中</h3>
+          <ul class="footer-area-covid__list">
+            <li>
+              <img src="images/top/covid_01.png" alt="アイコン" loading="lazy">
+              <span>マスク着用</span>
+            </li>
+            <li>
+              <img src="images/top/covid_02.png" alt="アイコン" loading="lazy">
+              <span>消毒液設置</span>
+            </li>
+            <li>
+              <img src="images/top/covid_03.png" alt="アイコン" loading="lazy">
+              <span>検温管理</span>
+            </li>
+          </ul>
+        </div>
+        <!-- /.area-covid -->
+      </div>
+      <!-- /.area__flex -->
+    </div>
+    <!-- /.area -->
+
+
+    <div class="footer-sns-link scrollin">
+      <ul>
+        <li>
+          <a href="#">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/common/sp/btn_facebook.png">
+              <img src="images/common/btn_facebook.png" alt="FACEBOOK" loading="lazy">
+            </picture>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/common/sp/btn_instagram.png">
+              <img src="images/common/btn_instagram.png" alt="INSTAGRAM" loading="lazy">
+            </picture>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.footer-sns-link -->
+
+
+    <div class="pc-fixed-bnr">
+      <div class="pc-fixed-bnr-search">
+        <a href="#">
+          <p>不動産サイトはこちら<span>物件・土地を探す</span></p>
+        </a>
+      </div>
+      <!-- /.pc-fixed-bnr-search -->
+
+      <div class="pc-fixed-bnr-tel">
+        <ul class="pc-fixed-bnr-tel__list">
+          <li>
+            <span>佐賀本店</span>
+            <span>0120-927-502</span>
+            <span>9:00～18:00（定休日／日・祝）</span>
+          </li>
+          <li>
+            <span>佐賀本店</span>
+            <span>0120-927-502</span>
+            <span>9:00～18:00（定休日／日・祝）</span>
+          </li>
+        </ul>
+      </div>
+      <!-- /.pc-fixed-bnr-tel -->
+
+      <div class="pc-fixed-bnr-line">
+        <a href="#">LINEで相談</a>
+      </div>
+      <!-- /.pc-fixed-bnr-lin -->
+    </div>
+    <!-- /.pc-fixed-bnr -->
+
+    <div class="footer-contents">
+      <div class="footer-contents__wrap">
+        <div class="footer-info">
+          <div class="footer-logo">
+            <a href="#">
+              <img src="images/common/logo.svg" alt="ロゴ" loading="lazy">
+            </a>
+          </div>
+          <!-- /.footer-logo -->
+
+          <div class="footer-sns">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="images/common/icon_facebook.png" alt="FACEBOOK" loading="lazy">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/common/icon_instagram.png" alt="INSTAGRAM" loading="lazy">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/common/icon_line.png" alt="LINE" loading="lazy">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.footer-sns -->
+
+          <div class="footer-address">
+            <p>〒849-0937<br>佐賀県佐賀市鍋島3丁目9-2<br>TEL：0952-31-5884<br>FAX：0952-31-5889</p>
+          </div>
+          <!-- /.footer-address -->
+        </div>
+        <!-- /.footer-info -->
+
+
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li><a href="#">ホーム</a></li>
+            <li><a href="#">エスケイシステムにできること</a></li>
+            <li>
+              <a href="#">施工事例</a>
+
+              <div class="footer-nav-list__flex">
+                <ul class="footer-nav-sublist">
+                  <li><a href="#">新築</a></li>
+                  <li><a href="#">リフォーム・増改築</a></li>
+                  <li><a href="#">トイレ</a></li>
+                  <li><a href="#">浴室・洗面</a></li>
+                  <li><a href="#">その他</a></li>
+                </ul>
+
+                <ul class="footer-nav-sublist">
+                  <li><a href="#">リノベーション</a></li>
+                  <li><a href="#">店舗</a></li>
+                  <li><a href="#">キッチン</a></li>
+                  <li><a href="#">外構・エクステリア</a></li>
+                </ul>
+              </div>
+              <!-- /.footer-nav-list__flex -->
+            </li>
+            <li><a href="#">よくあるご質問</a></li>
+          </ul>
+
+          <ul class="footer-nav-list">
+            <li><a href="#">スタッフ紹介</a></li>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">お知らせ</a></li>
+            <li><a href="#">施工中の様子</a></li>
+            <li>
+              <a href="#">マガジン</a>
+
+              <ul class="footer-nav-sublist">
+                <li><a href="#">佐賀ぐーるぐる</a></li>
+                <li><a href="#">福岡ぐーるぐる</a></li>
+              </ul>
+            </li>
+            <li><a href="#">プライバシーポリシー</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /.footer-contents__wrap -->
+
+
+      <div id="to-top" class="scroll-link">
+        <a href="#body"><img src="images/common/to_top.png" alt="TOP" loading="lazy"></a>
+      </div>
+      <!-- /#to-top -->
+    </div>
+    <!-- /.footer-contents -->
+
+    <div class="copyright">
+      <small>© 株式会社 エスケイシステム</small>
+    </div>
+    <!-- /.copyright -->
+  </footer>
+
+
+
+  <div class="sp-fixed-bnr">
+    <ul class="sp-fixed-bnr__list">
+      <li>
+        <a href="#">
+          <img src="images/common/icon_window.png" alt="アイコン" loading="lazy">
+          <span>物件・土地<br>を探す</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/common/icon_tel.png" alt="アイコン" loading="lazy">
+          <span>佐賀本店</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/common/icon_tel.png" alt="アイコン" loading="lazy">
+          <span>北九州支店</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="sp-fixed-bnr__line">
+      <a href="#"><img src="images/common/icon_line.png" alt="LINE">LINEで相談</a>
+    </div>
+    <!-- /.sp-fixed-bnr__line -->
+  </div>
+  <!-- /.sp-fixed-bnr -->
+
+</body>
+</html>
