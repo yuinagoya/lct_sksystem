@@ -20,18 +20,19 @@
       margin-bottom: 2em;
     }
     &::before {
-      top: -58px;
-      left: -95px;
-      width: 201px;
-      height: 136px;
-      background: url("../images/case/case_cat_ttl.png") center/contain no-repeat;
-      z-index: -1;
-      @include mq(sp) {
-        top: -#{vw(40)};
-        left: -#{vw(65)};
-        width: vw(130);
-        height: vw(100);
-      }
+      content: none;
+//      top: -58px;
+//      left: -95px;
+//      width: 201px;
+//      height: 136px;
+//      background: url("../images/case/case_cat_ttl.png") center/contain no-repeat;
+//      z-index: -1;
+//      @include mq(sp) {
+//        top: -#{vw(40)};
+//        left: -#{vw(65)};
+//        width: vw(130);
+//        height: vw(100);
+//      }
     }
   }
 

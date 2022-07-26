@@ -18,21 +18,7 @@
 }
 
 .case__sec01 .case__ttl::before {
-  top: -58px;
-  left: -95px;
-  width: 201px;
-  height: 136px;
-  background: url("../images/case/case_cat_ttl.png") center/contain no-repeat;
-  z-index: -1;
-}
-
-@media screen and (max-width: 767px) {
-  .case__sec01 .case__ttl::before {
-    top: -10.66667vw;
-    left: -17.33333vw;
-    width: 34.66667vw;
-    height: 26.66667vw;
-  }
+  content: none;
 }
 
 @media screen and (min-width: 768px) {

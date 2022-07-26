@@ -243,12 +243,25 @@
     @include fz(16);
     margin: 0 -1em;
   }
+  a,span{
+    border: none;
+  }
   a,.extend{
     color: $c_base;
     margin: 0 1em 1em;
     display: inline-block;
     @include mq(sp) {
       margin: 0 .4em 1em;
+    }
+  }
+  .larger{
+    & + .larger{
+      margin-left: 0;
+    }
+  }
+  .smaller{
+    & + .smaller{
+      margin-left: 0;
     }
   }
   .extend{
@@ -258,9 +271,13 @@
     }
   }
   .pages{
+    margin:0 1em 1em 0;
     @include mq(sp) {
       display: block;
       margin-bottom: 1em;
+    }
+    & + .current{
+      margin-left: 1em;
     }
   }
   .page{
@@ -283,6 +300,9 @@
     @include mq(sp) {
       
     }
+  }
+  .first{
+    margin-left: 0;
   }
   .previouspostslink,.nextpostslink{
     text-indent: -100px;
@@ -475,6 +495,7 @@
 
     @include mq(pc) {
       width: calc((100% - 34px * 2) / 3);
+      
     }
 
     @include mq(sp) {
@@ -508,6 +529,9 @@
   border: 1px solid #d2dfda;
   border-radius: 10px;
   background-color: #ffffff;
+  @include mq(pc) {
+    height: calc(100% - 2px);
+  }
   > a {
     display: block;
     overflow: hidden;
