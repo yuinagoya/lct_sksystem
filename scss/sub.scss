@@ -499,6 +499,7 @@
     }
 
     @include mq(sp) {
+      width: 100%;
       & + li {
         margin-top: vw(27);
       }
@@ -541,6 +542,13 @@
     }
     img {
       width: 100%;
+      object-fit: cover;
+      @include mq(pc) {
+        height: 220px;
+      }
+      @include mq(sp) {
+        height: #{vw(220)};
+      }
     }
   }
 }

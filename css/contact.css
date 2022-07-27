@@ -30,10 +30,10 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin: 56px 80px 1em;
   }
 }
@@ -397,6 +397,7 @@
 
 .contact__form dl .horizontal-item {
   display: block;
+  margin-left: 0 !important;
 }
 
 .contact__form input,
@@ -560,13 +561,13 @@
 
 @media screen and (min-width: 768px) {
   .contact__form label {
-    margin-bottom: 1.5em;
+    margin: 0 0 1.5em 0 !important;
   }
 }
 
 @media screen and (max-width: 767px) {
   .contact__form label {
-    margin: .3em 0;
+    margin: 0.3em 0 !important;
   }
 }
 
@@ -659,14 +660,18 @@
   }
 }
 
+.contact__form .p-region + span {
+  display: block;
+}
+
 @media screen and (min-width: 768px) {
-  .contact__form .p-region + p {
+  .contact__form .p-region + span {
     margin-left: 26px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .contact__form .p-region + p {
+  .contact__form .p-region + span {
     margin-left: 5.33333vw;
   }
 }
@@ -675,6 +680,7 @@
   border-top: 1px solid #cccccc;
   line-height: 2;
   padding-top: 3em;
+  padding-bottom: 1.5em;
 }
 
 .contact__form .contact__agree .horizontal-item {
@@ -688,6 +694,16 @@
   }
 }
 
+.contact__form .contact__agree .horizontal-item label {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .contact__form .contact__agree .mwform-checkbox-field-text {
+    word-break: keep-all;
+  }
+}
+
 .contact__form .contact__agree .mwform-checkbox-field-text:before {
   -webkit-transform: translateY(1.3em);
   transform: translateY(1.3em);
@@ -695,8 +711,8 @@
 
 @media screen and (max-width: 767px) {
   .contact__form .contact__agree .mwform-checkbox-field-text:before {
-    -webkit-transform: translateY(8.53333vw);
-    transform: translateY(8.53333vw);
+    -webkit-transform: translateY(8.8vw);
+    transform: translateY(8.8vw);
   }
 }
 
@@ -707,9 +723,13 @@
 
 @media screen and (max-width: 767px) {
   .contact__form .contact__agree .mwform-checkbox-field-text:after {
-    -webkit-transform: translateY(8.53333vw) rotate(-45deg);
-    transform: translateY(8.53333vw) rotate(-45deg);
+    -webkit-transform: translateY(8.8vw) rotate(-45deg);
+    transform: translateY(8.8vw) rotate(-45deg);
   }
+}
+
+.contact__form .contact__agree .contact__agree__text {
+  padding: 0 0 0 2.4em;
 }
 
 .contact__form .contact__agree a {

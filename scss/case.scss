@@ -266,6 +266,18 @@
       display: block;
       border-radius: 6px;
       overflow: hidden;
+      max-height: 650px;
+      
+
+      img{
+        object-fit: cover;
+        width: 100%;
+        max-height: 650px;
+        object-position: 50% 50%;
+        @include mq(sp) {
+          max-height: #{vw(300)};
+        }
+      }
 
     }
   }
@@ -317,7 +329,8 @@
 
       img{
         width: 100%;
-        height: auto;
+        object-fit: cover;
+        
       }
 
     }
@@ -351,8 +364,18 @@
     }
     picture{
       width: 410px;
+      
+
       @include mq(sp) {
         width: 100%;
+      }
+      img{
+        @include mq(pc) {
+          height: 290px;
+        }
+        @include mq(sp) {
+          height: #{vw(240)};
+        }
       }
     }
   }
@@ -360,6 +383,14 @@
     width: 485px;
     @include mq(sp) {
       width: 100%;
+    }
+    img{
+      @include mq(pc) {
+        height: 340px;
+      }
+      @include mq(sp) {
+        height: #{vw(280)};
+      }
     }
   }
   

@@ -608,6 +608,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .case-list > li {
+    width: 100%;
+  }
   .case-list > li + li {
     margin-top: 7.2vw;
   }
@@ -660,6 +663,20 @@
 
 .case-list__wrap > a img {
   width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .case-list__wrap > a img {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .case-list__wrap > a img {
+    height: 58.66667vw;
+  }
 }
 
 .case-list__txt {
