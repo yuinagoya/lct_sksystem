@@ -1,0 +1,18 @@
+<svg id="icon-blank.svg" xmlns="http://www.w3.org/2000/svg" width="17.5" height="17.5" viewBox="0 0 17.5 17.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="長方形_889" data-name="長方形 889" class="cls-1" d="M778,3623.98h10.019V3634H778v-10.02Z" transform="translate(-774 -3620.5)"/>
+  <path id="長方形_890" data-name="長方形 890" class="cls-2" d="M774,3628h1v10h-1v-10Zm11,9v1H775v-1h10Z" transform="translate(-774 -3620.5)"/>
+</svg>

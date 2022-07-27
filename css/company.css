@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
+.mv,
+.sub_first {
+  background: #faf9e4;
+}
+
+.company__sec01 h2.company__ttl {
+  font-size: 34px;
+  margin-bottom: 24px;
+  color: #2fa876;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.company__sec01 p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 80px;
+}
+
+.company__sec01 p.title {
+  font-size: 21px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.company__sec01 .inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.company__sec01 .total-produce {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company__sec01 .total-produce .title {
+  width: 343px;
+}
+
+.company__sec01 .total-produce .txt {
+  width: 584px;
+}
+
+.company__sec01 .total-produce .txt p {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.showroom-office {
+  background-image: url(../images/company/showroom-bg.jpg);
+  background-size: cover;
+  padding: 72px 0;
+}
+
+.showroom-office .inner {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showroom-office .inner div.first {
+  width: 412px;
+}
+
+.showroom-office .inner div.first img {
+  margin-bottom: 8px;
+}
+
+.showroom-office .inner div.second {
+  width: 580px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.showroom-office .inner div.second img {
+  margin-bottom: 8px;
+}
+
+.company__sec02 {
+  padding: 150px 0;
+}
+
+.company__sec02 .h2-wrap {
+  position: relative;
+}
+
+.company__sec02 .h2-wrap img {
+  position: absolute;
+  top: -100px;
+  left: calc(50% - 150px);
+  z-index: 9;
+}
+
+.company__sec02 .h2-wrap h2 {
+  position: relative;
+  z-index: 10;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 84px;
+}
+
+.company__sec02 .profile-list dl {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.company__sec02 .profile-list dl dt {
+  width: 274px;
+  padding: 24px 0;
+  border-bottom: 1px solid #2fa876;
+  font-size: 15px;
+}
+
+.company__sec02 .profile-list dl dd {
+  width: 726px;
+  padding: 24px 30px;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.company__sec02 .profile-list dl dd img {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+  .company__sec01 .inner-wrap {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .company__sec01 .inner-wrap img {
+    margin: 0 auto 16px;
+  }
+  .company__sec01 .total-produce {
+    display: block;
+  }
+  .company__sec01 .total-produce .title {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .company__sec01 .total-produce .title img {
+    zoom: 0.5;
+    height: auto;
+    margin: 0 auto;
+  }
+  .company__sec01 .total-produce .txt {
+    width: 100%;
+  }
+  .company__sec01 .total-produce .txt p {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .showroom-office {
+    padding: 10% 0;
+  }
+  .showroom-office .inner {
+    width: 92%;
+    margin: 0 auto;
+    display: block;
+  }
+  .showroom-office .inner div.first {
+    width: 100%;
+  }
+  .showroom-office .inner div.first img {
+    margin-bottom: 8px;
+  }
+  .showroom-office .inner div.second {
+    width: 100%;
+    display: block;
+  }
+  .showroom-office .inner div.second img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  .company__sec02 {
+    padding: 100px 0;
+  }
+  .company__sec02 .h2-wrap {
+    position: relative;
+  }
+  .company__sec02 .h2-wrap img {
+    position: absolute;
+    top: -100px;
+    left: calc(50% - 200px);
+    z-index: 9;
+    zoom: 0.5;
+  }
+  .company__sec02 .h2-wrap h2 {
+    position: relative;
+    z-index: 10;
+    font-size: 6.93333vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .company__sec02 .profile-list dl {
+    width: 100%;
+    margin: 0 auto 16px;
+    border-bottom: 1px solid #ccc;
+  }
+  .company__sec02 .profile-list dl dt {
+    width: 30%;
+    padding: 12px 0;
+    border-bottom: none;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+  .company__sec02 .profile-list dl dd {
+    width: 70%;
+    padding: 12px 2%;
+    border-bottom: none;
+    font-size: 15px;
+  }
+  .company__sec02 .profile-list dl dd img {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+}
+/*# sourceMappingURL=company.css.map */
