@@ -836,6 +836,7 @@ img {
   @include mq(sp) {
     @include fz(28);
   }
+
   + p {
     font-size: 1.8rem;
     line-height: 2;
@@ -897,6 +898,7 @@ img {
     @include mq(sp) {
       @include fz(14);
     }
+
     span {
       font-size: 3.4rem;
       font-weight: bold;
@@ -951,6 +953,7 @@ img {
 
       @include fz(20);
     }
+
     &::before {
       display: block;
       width: 51px;
@@ -991,6 +994,7 @@ img {
 .footer-area {
   padding: 100px 0;
   background-color: #faf9f7;
+
   @include mq(sp) {
     padding: vw(100) vw(20) vw(50);
   }
@@ -1008,11 +1012,13 @@ img {
   @include mq(pc) {
     width: 50%;
   }
+
   @include mq(sp) {
     margin-bottom: vw(40);
   }
   p {
     font-size: 1.8rem;
+
     @include mq(sp) {
       @include fz(16);
     }
@@ -1023,9 +1029,9 @@ img {
   font-size: 3rem;
   font-weight: bold;
   line-height: 1;
-  margin-bottom: 0.5em;
   position: relative;
   width: fit-content;
+  margin-bottom: 0.5em;
   @include mq(sp) {
     @include fz(24);
   }
@@ -1041,8 +1047,8 @@ img {
     background: url("../images/common/ttl_area.png") center/contain no-repeat;
 
     @include mq(sp) {
-      left: 100%;
       bottom: vw(8);
+      left: 100%;
       width: vw(126);
       height: vw(68);
     }
@@ -1053,6 +1059,7 @@ img {
   font-size: 2rem;
   margin-bottom: 0.5em;
   color: $c_base;
+
   @include mq(sp) {
     @include fz(18);
   }
@@ -1063,6 +1070,7 @@ img {
     display: inline-block;
     margin-bottom: 0.5em;
     padding: 0 0.3em;
+
     @include mq(sp) {
       @include fz(24);
     }
@@ -1094,10 +1102,12 @@ img {
   color: #ffffff;
   border-radius: 10px 10px 0 0;
   background-color: #50a3b2;
+
   @include mq(sp) {
-    @include fz(18);
     padding: vw(16) 0;
     border-radius: vw(10) vw(10) 0 0;
+
+    @include fz(18);
   }
 }
 
@@ -1106,6 +1116,7 @@ img {
   padding: 20px 0;
   border-radius: 0 0 10px 10px;
   background-color: #ffffff;
+
   @include mq(sp) {
     padding: vw(14) 0;
     border-radius: 0 0 vw(10) vw(10);
@@ -1120,15 +1131,17 @@ img {
   }
   img {
     margin: 0 auto 12px;
+
     @include mq(sp) {
-      margin: 0 auto vw(10);
       width: vw(40);
+      margin: 0 auto vw(10);
     }
   }
   span {
     font-size: 1.8rem;
     display: block;
     color: #50a3b2;
+
     @include mq(sp) {
       @include fz(12);
     }
@@ -1141,6 +1154,7 @@ img {
 
 .footer-sns-link {
   margin: 50px 0 70px;
+
   @include mq(sp) {
     margin: vw(30) vw(20) vw(140);
   }
@@ -1163,8 +1177,6 @@ img {
     }
   }
 }
-
-
 
 .footer-tel__wrap {
   width: fit-content;
@@ -1321,8 +1333,6 @@ img {
   }
 }
 
-
-
 //====================================
 //  固定バナー
 //====================================
@@ -1333,6 +1343,7 @@ img {
   bottom: 0;
   left: 0;
   display: flex;
+  min-width: 1200px;
   height: 80px;
   color: #ffffff;
   background-color: $c_base;
@@ -1432,6 +1443,44 @@ img {
   }
 }
 
+.pc-fixed-bnr-mail {
+  box-sizing: border-box;
+  height: 103px;
+  margin-top: -23px;
+  border-top: 3px solid #2fa876;
+  border-right: 3px solid #2fa876;
+  border-left: 3px solid #2fa876;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 270px;
+  flex: 1;
+  a {
+    white-space: nowrap;
+    font-size: clamp(2rem, 1.7vw, 2.4rem);
+    display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    transition: 0.3s;
+    color: #2fa876;
+    padding: 0 10px;
+
+    column-gap: 12px;
+    align-items: center;
+    justify-content: center;
+    &::before {
+      display: block;
+      width: 45px;
+      height: 45px;
+      content: "";
+      background: url("../images/common/icon_mail_green.png") center/contain no-repeat;
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
 .pc-fixed-bnr-line {
   box-sizing: border-box;
   height: 103px;
@@ -1441,11 +1490,14 @@ img {
   border-left: 3px solid #4cc764;
   border-radius: 10px 10px 0 0;
   background-color: #ffffff;
+  width: 100%;
+  max-width: 270px;
+  flex: 1;
   a {
-    font-size: 2.4rem;
+    padding: 0 10px;
+    font-size: clamp(2rem, 1.7vw, 2.4rem);
     display: flex;
     box-sizing: border-box;
-    width: 270px;
     height: 100%;
     transition: 0.3s;
     color: #4cc764;
@@ -1533,19 +1585,19 @@ img {
     align-items: center;
     justify-content: center;
 
-    @include fz(14);
+    @include fz(12);
   }
 }
 
-.sp-fixed-bnr__line {
-  width: vw(98);
+.sp-fixed-bnr__mail {
+  width: vw(80);
   margin-top: -#{vw(10)};
   a {
     display: flex;
     box-sizing: border-box;
     height: 100%;
-    color: #4cc764;
-    border: vw(3) solid #4cc764;
+    color: #2fa876;
+    border: vw(2) solid #2fa876;
     border-bottom: none;
     border-radius: vw(10) vw(10) 0 0;
     background-color: #ffffff;
@@ -1553,8 +1605,35 @@ img {
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    letter-spacing: 1;
 
-    @include fz(14);
+    @include fz(10);
+  }
+  img {
+    width: vw(38);
+    margin: 0 auto vw(4);
+  }
+}
+
+.sp-fixed-bnr__line {
+  width: vw(80);
+  margin-top: -#{vw(10)};
+  a {
+    display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    color: #4cc764;
+    border: vw(2) solid #4cc764;
+    border-bottom: none;
+    border-radius: vw(10) vw(10) 0 0;
+    background-color: #ffffff;
+
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1;
+
+    @include fz(10);
   }
   img {
     width: vw(38);

@@ -125,10 +125,11 @@ $(function () {
   });
 });
 
-// ヘッダー
+// ヘッダー＆固定バナー
 $(function () {
   // PCの横幅狭くなったときにスクロール表示
   $(window).on("scroll", function () {
     $("#header").css("left", -$(window).scrollLeft());
+    $(".pc-fixed-bnr").css("left", -$(window).scrollLeft());
   });
 });
