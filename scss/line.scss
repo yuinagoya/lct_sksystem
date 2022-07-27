@@ -356,10 +356,10 @@
           .img {
             img {
                 height: 306px;
-            }
-            @include mq(sp) {
-                height: auto;
+                @include mq(sp) {
+                  height: auto;
               }
+            }
           }
         }
         &:nth-of-type(3) {

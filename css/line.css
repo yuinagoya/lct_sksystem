@@ -505,7 +505,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .page-line .consul_wrap .consul_step_wrap:nth-of-type(2) .img {
+  .page-line .consul_wrap .consul_step_wrap:nth-of-type(2) .img img {
     height: auto;
   }
 }
