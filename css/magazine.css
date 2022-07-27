@@ -7,64 +7,77 @@
   padding-top: 3em;
   padding-bottom: 4em;
 }
+
 .magazineBlock__01 .magazinetop__img {
   margin-top: 3em;
   width: 100%;
   position: relative;
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__01 .magazinetop__img {
     margin-top: 0;
     margin-bottom: 3em;
   }
 }
+
 .magazineBlock__01 .magazinetop__img:after {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  content: "";
+  transform: translate(-50%, -50%);
+  content: '';
   background: url(../images/magazine/magazine_img01-front.png) no-repeat center center;
   background-size: contain;
   width: 437px;
   height: 318px;
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__01 .magazinetop__img:after {
     max-width: 80%;
     max-height: 80%;
   }
 }
+
 .magazineBlock__01 .magazineBlock_catWrap {
   background: #f2f2f2;
   border-radius: 10px;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 1.3em 3em;
   margin-top: 50px;
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__01 .magazineBlock_catWrap {
     margin-top: 2em;
+    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
+
 .magazineBlock__01 .magazineBlock_catWrap .cat_ttl {
   font-size: 2.4rem;
   margin-right: 2em;
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__01 .magazineBlock_catWrap .cat_ttl {
     font-size: 18px;
@@ -73,11 +86,13 @@
     margin-bottom: 1em;
   }
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__01 .magazineBlock_catWrap .cat_btn {
     margin: 1em 0;
   }
 }
+
 .magazineBlock__01 .magazineBlock_catWrap .cat_btn a {
   padding: 0.5em 3em;
   border-radius: 19.5px;
@@ -89,20 +104,23 @@
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__01 .magazineBlock_catWrap .cat_btn a {
     margin-right: 0;
   }
 }
+
 .magazineBlock__01 .magazineBlock_catWrap .cat_btn a:hover {
   opacity: 0.7;
 }
+
 .magazineBlock__01 .magazineBlock_catWrap .cat_btn a:after {
   position: absolute;
   top: 50%;
   right: 20px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   content: "";
   width: 0;
   height: 0;
@@ -116,64 +134,79 @@
 .magazineBlock__02 {
   padding-bottom: 160px;
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__02 {
     padding-bottom: 4em;
   }
 }
+
 .magazineBlock__02 .magazine-count {
-  margin: 0 0 1em 0.5em;
+  margin: 0 0 1em .5em;
   font-size: 1.6rem;
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__02 .magazine-count {
     font-size: 16px;
-    font-size: 4.2666666667vw;
+    font-size: 4.26667vw;
   }
 }
+
 .magazineBlock__02 .magazine-list {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 67px;
+  -webkit-flex-flow: wrap;
   -ms-flex-flow: wrap;
-      flex-flow: wrap;
+  flex-flow: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
+
 @media screen and (min-width: 768px) {
   .magazineBlock__02 .magazine-list {
     -webkit-column-gap: 34px;
-       -moz-column-gap: 34px;
-            column-gap: 34px;
+    -moz-column-gap: 34px;
+    column-gap: 34px;
     row-gap: 60px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__02 .magazine-list {
-    margin-bottom: 11.7333333333vw;
+    margin-bottom: 11.73333vw;
   }
 }
+
 .magazineBlock__02 .magazine-list li {
-  width: calc(33.3333333333% - 34px);
+  width: calc((100% / 3) - 34px);
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__02 .magazine-list li {
     width: 100%;
     margin-bottom: 2em;
   }
 }
+
 .magazineBlock__02 .magazine-list__wrap .magazine-list__img {
   position: relative;
 }
+
 .magazineBlock__02 .magazine-list__wrap .magazine-list__img a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
 .magazineBlock__02 .magazine-list__wrap .magazine-list__img a:hover {
   opacity: 0.7;
 }
+
 .magazineBlock__02 .magazine-list__wrap .magazine-list__img .magazine-list__date {
   background-color: #2fa876;
   color: #fff;
@@ -183,47 +216,55 @@
   bottom: -15px;
   left: 0;
 }
+
 .magazineBlock__02 .magazine-list__wrap .magazine-list__img img {
   border-radius: 10px;
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__02 .magazine-list__wrap .magazine-list__img img {
     width: 100%;
   }
 }
+
 .magazineBlock__02 .magazine-list__wrap .magazine-list__txt a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
 .magazineBlock__02 .magazine-list__wrap .magazine-list__txt a:hover {
   opacity: 0.7;
 }
+
 .magazineBlock__02 .magazine-list__wrap .magazine-list__txt .magazine-list__category {
   margin-top: 1.5em;
   color: #2fa876;
   position: relative;
   padding-left: 30px;
 }
+
 .magazineBlock__02 .magazine-list__wrap .magazine-list__txt .magazine-list__category:before {
   position: absolute;
   top: 50%;
   left: 0;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  content: "";
+  transform: translateY(-50%);
+  content: '';
   background: url(../images/magazine/icon_category.svg) no-repeat center center;
   background-size: contain;
   width: 22px;
   height: 14px;
 }
+
 .magazineBlock__02 .magazine-list__wrap .magazine-list__txt .magazine-list__ttl {
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 1em;
 }
+
 @media screen and (max-width: 767px) {
   .magazineBlock__02 .magazine-list__wrap .magazine-list__txt .magazine-list__ttl {
     font-size: 16px;
-    font-size: 4.2666666667vw;
+    font-size: 4.26667vw;
   }
 }

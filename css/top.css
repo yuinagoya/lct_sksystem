@@ -29,12 +29,12 @@
 }
 
 .mv__txt {
-  display: none;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  display: none;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -438,8 +438,11 @@
 }
 
 .case-list__wrap > a {
+  position: relative;
   display: block;
   overflow: hidden;
+  height: 0;
+  padding-top: 70.9677%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -449,7 +452,15 @@
 }
 
 .case-list__wrap > a img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  margin: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .case-list__txt {
@@ -1026,6 +1037,7 @@
 
 .state__ttl::before {
   position: absolute;
+  z-index: -1;
   top: -82px;
   left: -31px;
   display: block;

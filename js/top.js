@@ -9,6 +9,7 @@ $(function () {
     dots: true,
     arrows: false,
     fade: true,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 767,
