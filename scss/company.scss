@@ -179,33 +179,7 @@ padding: 150px 0;
     }
   }
   .showroom-office {
-    padding:10% 0;
-  
-    .inner {
-      width: 92%;
-      margin: 0 auto;
-      display: block;
-  
-      div {
-        &.first {
-          width:100%;
-  
-          img {
-            margin-bottom: 8px;
-          }
-        }
-  
-        &.second {
-          width: 100%;
-          display: block;  
-          img {
-            width: 100%;
-            height: auto;
-            margin-bottom: 8px;
-          }
-        }
-      }
-    }
+    padding:0;
   }
   .company__sec02{
     padding: 100px 0;
