@@ -223,7 +223,7 @@
     </ul>
 
     <div class="sp-fixed-bnr__mail">
-      <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><img src="images/common/icon_mail_green.png" alt="メール">お問い合わせ</a>
+      <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/common/icon_mail_green.png" alt="メール">お問い合わせ</a>
     </div>
     <!-- /.sp-fixed-bnr__line -->
 
