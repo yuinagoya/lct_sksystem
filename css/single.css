@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
+.single h1 {
+  font-size: 6rem;
+  margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 767px) {
+  .single h1 {
+    font-size: 50px;
+    font-size: 13.33333vw;
+  }
+}
+
+.post-date {
+  display: block;
+}
+
+.post-content {
+  max-width: 1040px;
+  margin: 0 auto 140px;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content {
+    margin: 0 11.2vw;
+  }
+}
+
+.post-content > h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.4;
+  position: relative;
+  margin: 2em 0 1em;
+  padding-bottom: 13px;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > h2 {
+    font-size: 44px;
+    font-size: 11.73333vw;
+  }
+}
+
+.post-content > h2::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 200px;
+  height: 4px;
+  margin: auto;
+  content: "";
+  background-color: #2fa876;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > h2::before {
+    width: 106.66667vw;
+    height: 2.13333vw;
+  }
+}
+
+.post-content > h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1.25;
+  position: relative;
+  margin: 2em 0 1em;
+  padding-left: 32px;
+  color: #2fa876;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > h3 {
+    font-size: 40px;
+    font-size: 10.66667vw;
+  }
+}
+
+.post-content > h3::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 22px;
+  height: 4px;
+  margin: auto;
+  content: "";
+  background-color: #cccccc;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > h3::before {
+    width: 11.73333vw;
+    height: 2.13333vw;
+  }
+}
+
+.post-content > h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  position: relative;
+  margin: 2em 0 1em;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > h4 {
+    font-size: 32px;
+    font-size: 8.53333vw;
+  }
+}
+
+.post-content > h4::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 4px;
+  height: 100%;
+  margin: auto;
+  content: "";
+  background-color: #2fa876;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > h4::before {
+    width: 2.13333vw;
+  }
+}
+
+.post-content > h5 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 2em 0 1em;
+  color: #2fa876;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > h5 {
+    font-size: 28px;
+    font-size: 7.46667vw;
+  }
+}
+
+.post-content > p {
+  font-size: 1.6rem;
+  line-height: 2;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > p {
+    font-size: 28px;
+    font-size: 7.46667vw;
+  }
+}
+
+.post-content > ul {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > ul {
+    margin-bottom: 21.33333vw;
+  }
+}
+
+.post-content > ul li {
+  font-size: 1.6rem;
+  position: relative;
+  padding-left: 13px;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > ul li {
+    padding-left: 6.4vw;
+    font-size: 28px;
+    font-size: 7.46667vw;
+  }
+}
+
+.post-content > ul li::before {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  display: block;
+  width: 7px;
+  height: 7px;
+  margin: auto;
+  content: "";
+  border-radius: 50%;
+  background-color: #2fa876;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content > ul li::before {
+    top: 4.26667vw;
+    width: 3.2vw;
+    height: 3.2vw;
+  }
+}
+
+.post-content > ul li + li {
+  margin-top: 0.5em;
+}
+
+.post-content ol {
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content ol {
+    margin-bottom: 21.33333vw;
+  }
+}
+
+.post-content ol li {
+  position: relative;
+  padding-left: 1em;
+  counter-increment: num;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content ol li {
+    font-size: 28px;
+    font-size: 7.46667vw;
+  }
+}
+
+.post-content ol li::before {
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  margin: auto;
+  content: counter(num) ".";
+  color: #2fa876;
+}
+
+.post-content .wp-block-table {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content .wp-block-table {
+    margin-bottom: 21.33333vw;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .post-content .wp-block-table::-webkit-scrollbar {
+    height: 3px;
+  }
+  .post-content .wp-block-table::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .post-content .wp-block-table::-webkit-scrollbar-thumb {
+    background: #bcbcbc;
+  }
+}
+
+.post-content .wp-block-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+@media screen and (min-width: 768px) {
+  .post-content .wp-block-table table {
+    max-width: 800px;
+    table-layout: fixed;
+  }
+}
+
+.post-content .wp-block-table tr:first-child td {
+  font-weight: bold;
+  background-color: #ecf0f3;
+}
+
+.post-content .wp-block-table td {
+  line-height: 1.25;
+  padding: 0.5em 1em;
+  vertical-align: middle;
+  border: 1px solid #a6a6a6;
+  background-color: #ffffff;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content .wp-block-table td {
+    font-size: 28px;
+    font-size: 7.46667vw;
+  }
+}
+
+.post-content .wp-block-table.is-style-stripes {
+  border-bottom: none;
+}
+
+.post-content .wp-block-table.is-style-stripes tr:first-child td {
+  border-top: none;
+  border-bottom: 2px solid #2fa876;
+  background: none;
+}
+
+.post-content .wp-block-table.is-style-stripes td {
+  border-right: none;
+  border-left: none;
+  background: none;
+}
+
+.post-content .wp-block-quote {
+  position: relative;
+  margin-bottom: 80px;
+  padding: 45px;
+  background-color: #efefef;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content .wp-block-quote {
+    margin-bottom: 21.33333vw;
+    padding: 18.66667vw 12vw 13.33333vw;
+  }
+}
+
+.post-content .wp-block-quote::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 32px;
+  height: 30px;
+  margin: auto;
+  content: "";
+  background: url("../images/common/icon_quote.png") center/contain no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content .wp-block-quote::before {
+    width: 18.66667vw;
+    height: 17.6vw;
+  }
+}
+
+.post-content .wp-block-quote p {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content .wp-block-quote p {
+    font-size: 28px;
+    font-size: 7.46667vw;
+  }
+}
+
+.post-content .wp-block-image {
+  margin-bottom: 80;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content .wp-block-image {
+    margin-bottom: 21.33333vw;
+  }
+}
+
+.post-content .wp-block-image img {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content .wp-block-image img {
+    margin-bottom: 2.66667vw;
+  }
+}
+
+.post-content .wp-block-image figcaption {
+  font-size: 1.4rem;
+  line-height: 1.7142;
+}
+
+@media screen and (max-width: 767px) {
+  .post-content .wp-block-image figcaption {
+    font-size: 28px;
+    font-size: 7.46667vw;
+  }
+}
+
+.pager {
+  margin-bottom: 100px;
+}

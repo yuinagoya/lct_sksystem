@@ -65,6 +65,9 @@
   <?php if(is_search()): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/case.css" />
   <?php endif; ?>
+  <?php if(is_single()): ?>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/single.css" />
+  <?php endif; ?>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="<?php bloginfo('template_directory'); ?>/js/lib/slick.js"></script>
   <script src="<?php bloginfo('template_directory'); ?>/js/common.js"></script>
