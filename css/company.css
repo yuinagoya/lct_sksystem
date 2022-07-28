@@ -160,27 +160,7 @@
     margin-bottom: 40px;
   }
   .showroom-office {
-    padding: 10% 0;
-  }
-  .showroom-office .inner {
-    width: 92%;
-    margin: 0 auto;
-    display: block;
-  }
-  .showroom-office .inner div.first {
-    width: 100%;
-  }
-  .showroom-office .inner div.first img {
-    margin-bottom: 8px;
-  }
-  .showroom-office .inner div.second {
-    width: 100%;
-    display: block;
-  }
-  .showroom-office .inner div.second img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 8px;
+    padding: 0;
   }
   .company__sec02 {
     padding: 100px 0;
