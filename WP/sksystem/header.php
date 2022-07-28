@@ -38,6 +38,9 @@
   <?php if(is_page('company') ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/company.css" />
   <?php endif; ?>
+  <?php if(is_page('about') ): ?>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/strengths.css" />
+  <?php endif; ?>
   <?php if( is_category() ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/news.css" />
   <?php endif; ?>
