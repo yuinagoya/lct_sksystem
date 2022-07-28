@@ -167,6 +167,7 @@
                 </ul>
               </div>
             </li>
+            <li><a href="#">リフォーム・新築の流れ</a></li>
             <li><a href="<?php echo esc_url( home_url( '/qa/' ) ); ?>">よくあるご質問</a></li>
           </ul>
 
@@ -184,6 +185,7 @@
                 <li><a href="#">福岡ぐーるぐる</a></li>
               </ul>
             </li>
+            <li><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">お問い合わせ</a></li>
             <li><a href="<?php echo esc_url( home_url( '/privacy/' ) ); ?>">プライバシーポリシー</a></li>
           </ul>
         </nav>

@@ -357,6 +357,8 @@
   position: relative;
   z-index: 2;
   overflow: hidden;
+  box-sizing: border-box;
+  height: 100%;
   border: 1px solid #d2dfda;
   border-radius: 10px;
   background-color: #ffffff;

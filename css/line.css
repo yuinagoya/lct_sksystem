@@ -15,6 +15,7 @@
 .page-line .howto_wrap {
   width: 100%;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin: 0 0 86px;
@@ -24,23 +25,27 @@
   .page-line .howto_wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
 .page-line .howto_wrap .howto_box {
   width: 50%;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .page-line .howto_wrap .howto_box:first-of-type {
@@ -99,11 +104,13 @@
 .page-line .howto_wrap .howto_box .howto_img {
   height: 100%;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 1.6em;
 }
 
@@ -178,11 +185,13 @@
 
 .page-line .concern_wrap .concern_box .concern_list_wrap {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .page-line .concern_wrap .concern_box .concern_list_wrap .concern_list {
@@ -286,7 +295,7 @@
   left: 50%;
   top: -184px;
   -webkit-transform: rotateZ(8deg) translate(-552px, 151%);
-          transform: rotateZ(8deg) translate(-552px, 151%);
+  transform: rotateZ(8deg) translate(-552px, 151%);
   z-index: 1;
 }
 
@@ -299,7 +308,7 @@
   right: 50%;
   top: -184px;
   -webkit-transform: rotateZ(-8deg) translate(552px, 151%);
-          transform: rotateZ(-8deg) translate(552px, 151%);
+  transform: rotateZ(-8deg) translate(552px, 151%);
   z-index: 1;
 }
 
@@ -355,14 +364,17 @@
 
 .page-line .concern_wrap .concern_line_wrap .concern_line_list {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   padding: 0 40px;
 }
 
@@ -370,11 +382,13 @@
   .page-line .concern_wrap .concern_line_wrap .concern_line_list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 0;
   }
 }
@@ -400,6 +414,7 @@
 
 .page-line .consul_wrap .consul_step_wrap {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   padding: 60px 0 24px;
@@ -410,8 +425,9 @@
   .page-line .consul_wrap .consul_step_wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -459,11 +475,13 @@
 .page-line .consul_wrap .consul_step_wrap .img {
   width: 55%;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 767px) {
@@ -518,4 +536,3 @@
 .page-line .consul_wrap .consul_step_wrap:nth-of-type(3) .cont .consul_step_ttl::before {
   background: url(../images/line/img_step3.png);
 }
-/*# sourceMappingURL=line.css.map */

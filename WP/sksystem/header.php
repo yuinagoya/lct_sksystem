@@ -136,10 +136,12 @@
               <li><a href="<?php echo esc_url( home_url( '/cate_case/others/' ) ); ?>">その他</a></li>
             </ul>
           </li>
+          <li><a href="#">リフォーム・新築の流れ</a></li>
           <li><a href="<?php echo esc_url( home_url( '/qa/' ) ); ?>">よくあるご質問</a></li>
         </ul>
 
         <ul class="drawer-nav-list">
+          <li><a href="#">スタッフ紹介</a></li>
           <li><a href="<?php echo esc_url( home_url( '/company/' ) ); ?>">会社概要</a></li>
           <li><a href="<?php echo esc_url( home_url( '/line/' ) ); ?>">LINEで相談</a></li>
           <li><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>">お知らせ</a></li>
