@@ -113,7 +113,7 @@
     display: flex;
     margin-bottom: 67px;
     flex-flow: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     @include mq(pc) {
       column-gap: 34px;
       row-gap: 60px;
@@ -122,7 +122,7 @@
       margin-bottom: vw(44);
     }
     li{
-      width: calc((100% / 3) - 34px);
+      width: calc((100% - 34px * 2) / 3);
       @include mq(sp){
         width: 100%;
         margin-bottom: 2em;
