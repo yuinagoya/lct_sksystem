@@ -1,0 +1,199 @@
+@charset 'UTF-8';
+
+// Import
+@import "include/_variable";
+@import "include/_mixin";
+
+//====================================
+//  strengths
+//====================================
+.mv{
+  .mv__txt{
+    .ja{
+      @include mq(sp) {
+        @include fz(22);
+      }
+    }
+  }
+}
+
+.strengths__sec01{
+
+  h2{
+    font-size: 2.4rem;
+    line-height: 1.79;
+    text-align: center;
+    margin: 3em auto;
+    @include mq(sp) {
+      @include fz(18);
+      margin-top: #{vw(40)};
+    }
+  }
+  
+  .strengths-list{
+
+    @include mq(pc) {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 90px;
+      justify-content: space-between;
+    }
+    @include mq(sp) {
+      margin-top: #{vw(100)};
+    }
+    &__item{
+      border-radius: 10px;
+      border: 2px solid #eaeaea;
+      @include mq(pc) {
+        width: 48%;
+        padding: 36px 26px;
+        box-sizing: border-box;
+        margin: 100px 0 40px 0;
+      }
+      @include mq(sp) {
+        margin-bottom:  #{vw(90)};
+        border: none;
+      }
+      &.row{
+        border: none;
+        width: 100%;
+        @include mq(pc) {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin:0 0 90px 0;
+          padding: 0;
+        }
+        @include mq(sp) {
+          
+        }
+        .strengths-list__content{
+          @include mq(pc) {
+            width: 50%;
+          }
+          @include mq(sp) {
+            margin-bottom: #{vw(30)};
+          }
+        }
+        h3{
+          @include mq(pc) {
+            padding-bottom: .8em;
+            background-image: url("../images/strengths/strengths_line01.png");
+          }
+        }
+        .strengths-list__num{
+          @include mq(pc) {
+            top: -75px;
+            left: -50px;
+          }
+          @include mq(sp) {
+            top: -#{vw(45)};
+            left: -#{vw(18)};
+            width: #{vw(55)};
+          }
+        }
+        .strengths-list__title{
+          font-size: 2.6rem;
+          line-height: 1.52;
+          @include mq(sp) {
+            line-height: 1.89;
+            @include fz(18);
+          }
+        }
+        .strengths-list__text{
+          font-size: 1.6rem;
+          line-height: 2.225;
+          @include mq(sp) {
+            line-height: 2.1;
+            @include fz(13);
+          }
+        }
+        .strengths-list__img{
+          @include mq(pc) {
+            width: 50%;
+          }
+        }
+      }
+      &:nth-of-type(odd){
+        .strengths-list__content{
+          @include mq(pc) {
+            order: 1;
+          }
+        }
+        .strengths-list__img{
+          @include mq(pc) {
+            order: 2;
+            
+          }
+          img{
+            @include mq(pc) {
+              margin: 0 0 0 auto;
+            }
+            @include mq(sp) {
+              margin: 0 0 0 -#{vw(4)}; ;
+            }
+          }
+        }
+      }
+      &:nth-of-type(even){
+        .strengths-list__content{
+          @include mq(pc) {
+            order: 2;
+          }
+        }
+        .strengths-list__img{
+          @include mq(pc) {
+            order: 1;
+          }
+          img{
+            @include mq(pc) {
+              margin: 0 auto 0 -8px ;
+            }
+            @include mq(sp) {
+              margin: 0 0 0 -#{vw(4)}; ;
+            }
+          }
+        }
+      }
+
+    }
+    h3{
+      position:relative;
+      background: url("../images/strengths/strengths_line02.png") no-repeat center bottom /100% auto;
+      margin-bottom: 2em;
+      padding-bottom: .5em;
+      @include mq(pc) {
+        
+      }
+    }
+    &__num{
+      position: absolute;
+      @include mq(pc) {
+        top: -90px;
+        left: -30px;
+      }
+      @include mq(sp) {
+        top: -#{vw(45)};
+        left: -#{vw(18)};
+        width: #{vw(55)};
+      }
+    }
+    &__title{
+      color: $c_base;
+      font-size: 2.1rem;
+      line-height: 1.89;
+      @include mq(sp) {
+        @include fz(18);
+      }
+    }
+    &__text{
+      font-size: 1.5rem;
+      line-height: 2.1;
+      letter-spacing: .02em;
+      @include mq(sp) {
+        @include fz(13);
+      }
+    }
+  }
+}
+
