@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
+@media screen and (max-width: 767px) {
+  .mv .mv__txt .ja {
+    font-size: 22px;
+    font-size: 5.86667vw;
+  }
+}
+
+.strengths__sec01 h2 {
+  font-size: 2.4rem;
+  line-height: 1.79;
+  text-align: center;
+  margin: 3em auto;
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 h2 {
+    font-size: 18px;
+    font-size: 4.8vw;
+    margin-top: 10.66667vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list {
+    margin-top: 26.66667vw;
+  }
+}
+
+.strengths__sec01 .strengths-list__item {
+  border-radius: 10px;
+  border: 2px solid #eaeaea;
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item {
+    width: 48%;
+    padding: 36px 26px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 100px 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list__item {
+    margin-bottom: 24vw;
+    border: none;
+  }
+}
+
+.strengths__sec01 .strengths-list__item.row {
+  border: none;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 0 90px 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item.row .strengths-list__content {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list__item.row .strengths-list__content {
+    margin-bottom: 8vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item.row h3 {
+    padding-bottom: .8em;
+    background-image: url("../images/strengths/strengths_line01.png");
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item.row .strengths-list__num {
+    top: -75px;
+    left: -50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list__item.row .strengths-list__num {
+    top: -12vw;
+    left: -4.8vw;
+    width: 14.66667vw;
+  }
+}
+
+.strengths__sec01 .strengths-list__item.row .strengths-list__title {
+  font-size: 2.6rem;
+  line-height: 1.52;
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list__item.row .strengths-list__title {
+    line-height: 1.89;
+    font-size: 18px;
+    font-size: 4.8vw;
+  }
+}
+
+.strengths__sec01 .strengths-list__item.row .strengths-list__text {
+  font-size: 1.6rem;
+  line-height: 2.225;
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list__item.row .strengths-list__text {
+    line-height: 2.1;
+    font-size: 13px;
+    font-size: 3.46667vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item.row .strengths-list__img {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item:nth-of-type(odd) .strengths-list__content {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item:nth-of-type(odd) .strengths-list__img {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item:nth-of-type(odd) .strengths-list__img img {
+    margin: 0 0 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list__item:nth-of-type(odd) .strengths-list__img img {
+    margin: 0 0 0 -1.06667vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item:nth-of-type(even) .strengths-list__content {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item:nth-of-type(even) .strengths-list__img {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__item:nth-of-type(even) .strengths-list__img img {
+    margin: 0 auto 0 -8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list__item:nth-of-type(even) .strengths-list__img img {
+    margin: 0 0 0 -1.06667vw;
+  }
+}
+
+.strengths__sec01 .strengths-list h3 {
+  position: relative;
+  background: url("../images/strengths/strengths_line02.png") no-repeat center bottom/100% auto;
+  margin-bottom: 2em;
+  padding-bottom: .5em;
+}
+
+.strengths__sec01 .strengths-list__num {
+  position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+  .strengths__sec01 .strengths-list__num {
+    top: -90px;
+    left: -30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list__num {
+    top: -12vw;
+    left: -4.8vw;
+    width: 14.66667vw;
+  }
+}
+
+.strengths__sec01 .strengths-list__title {
+  color: #2fa876;
+  font-size: 2.1rem;
+  line-height: 1.89;
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list__title {
+    font-size: 18px;
+    font-size: 4.8vw;
+  }
+}
+
+.strengths__sec01 .strengths-list__text {
+  font-size: 1.5rem;
+  line-height: 2.1;
+  letter-spacing: .02em;
+}
+
+@media screen and (max-width: 767px) {
+  .strengths__sec01 .strengths-list__text {
+    font-size: 13px;
+    font-size: 3.46667vw;
+  }
+}
