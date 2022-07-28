@@ -85,10 +85,6 @@
   ==================================--->
   <header id="header">
     <div class="header__wrap">
-      <!---===========================================
-      ***** 下層ページではh1をdivに変更して下さい *****
-      （実装時にこちらのコメントは削除）
-      ============================================--->
       <?php if(is_front_page() ): ?>
         <h1 class="header-logo">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -142,6 +138,7 @@
 
         <ul class="drawer-nav-list">
           <li><a href="<?php echo esc_url( home_url( '/company/' ) ); ?>">会社概要</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/line/' ) ); ?>">LINEで相談</a></li>
           <li><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>">お知らせ</a></li>
           <li><a href="<?php echo esc_url( home_url( '/construction/' ) ); ?>">施工中の様子</a></li>
           <li>
@@ -167,12 +164,12 @@
               </span>
               <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜18:00（定休日:日・祝）</span>
             </li>
-            <li>
+            <!-- <li>
               <span class="drawer-tel__num">
                 北九州支店<span>0120-927-502</span>
               </span>
               <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜18:00（定休日:日・祝）</span>
-            </li>
+            </li> -->
           </ul>
         </div>
 

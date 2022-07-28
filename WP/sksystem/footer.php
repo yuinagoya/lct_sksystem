@@ -92,13 +92,18 @@
             <span>0120-927-502</span>
             <span>9:00～18:00（定休日／日・祝）</span>
           </li>
-          <li>
+          <!-- <li>
             <span>佐賀本店</span>
             <span>0120-927-502</span>
             <span>9:00～18:00（定休日／日・祝）</span>
-          </li>
+          </li> -->
         </ul>
       </div>
+
+      <div class="pc-fixed-bnr-mail">
+        <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">お問い合わせ</a>
+      </div>
+      <!-- /.pc-fixed-bnr-mail -->
 
       <div class="pc-fixed-bnr-line">
         <a href="<?php echo esc_url( home_url( '/line/' ) ); ?>">LINEで相談</a>
@@ -168,6 +173,7 @@
           <ul class="footer-nav-list">
             <li><a href="<?php echo esc_url( home_url( '/staff/' ) ); ?>">スタッフ紹介</a></li>
             <li><a href="<?php echo esc_url( home_url( '/company/' ) ); ?>">会社概要</a></li>
+            <li><a href="<?php echo esc_url( home_url( '/line/' ) ); ?>">LINEで相談</a></li>
             <li><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>">お知らせ</a></li>
             <li><a href="<?php echo esc_url( home_url( '/construction/' ) ); ?>">施工中の様子</a></li>
             <li>
@@ -206,13 +212,18 @@
           <span>佐賀本店</span>
         </a>
       </li>
-      <li>
+      <!-- <li>
         <a href="#">
           <img src="<?php bloginfo('template_directory'); ?>/images/common/icon_tel.png" alt="アイコン" loading="lazy">
           <span>北九州支店</span>
         </a>
-      </li>
+      </li> -->
     </ul>
+
+    <div class="sp-fixed-bnr__mail">
+      <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><img src="images/common/icon_mail_green.png" alt="メール">お問い合わせ</a>
+    </div>
+    <!-- /.sp-fixed-bnr__line -->
 
     <div class="sp-fixed-bnr__line">
       <a href="<?php echo esc_url( home_url( '/line/' ) ); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/common/icon_line.png" alt="LINE">LINEで相談</a>
