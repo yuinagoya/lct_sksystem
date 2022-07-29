@@ -175,7 +175,7 @@
               <div class="case-list__wrap">
 
                 <a href="<?php the_permalink(); ?>">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/top/case_01.jpg" alt="" loading="lazy">
+                  <img src="<?php echo $thum_src; ?>" alt="" loading="lazy">
                 </a>
 
                 <div class="case-list__txt">
