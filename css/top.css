@@ -395,15 +395,13 @@
 
 .case-list > li {
   position: relative;
-}
-
-@media screen and (min-width: 768px) {
-  .case-list > li {
-    width: calc((100% - 34px * 2) / 3);
-  }
+  width: calc((100% - 34px * 2) / 3);
 }
 
 @media screen and (max-width: 767px) {
+  .case-list > li {
+    width: 100%;
+  }
   .case-list > li + li {
     margin-top: 7.2vw;
   }
@@ -1473,16 +1471,26 @@
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 5px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   gap: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-list__info {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .magazine-list__info {
-    gap: 2.13333vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    gap: 0.8vw;
   }
 }
 

@@ -324,11 +324,9 @@
   > li {
     position: relative;
 
-    @include mq(pc) {
-      width: calc((100% - 34px * 2) / 3);
-    }
-
+    width: calc((100% - 34px * 2) / 3);
     @include mq(sp) {
+      width: 100%;
       & + li {
         margin-top: vw(27);
       }
@@ -1194,11 +1192,13 @@
   display: flex;
   margin-bottom: 5px;
 
-  align-items: center;
   gap: 12px;
-
+  @include mq(pc) {
+    align-items: center;
+  }
   @include mq(sp) {
-    gap: vw(8);
+    flex-flow: column;
+    gap: vw(3);
   }
 
   a {

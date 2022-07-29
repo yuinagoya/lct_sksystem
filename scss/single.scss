@@ -9,7 +9,7 @@
     font-size: 6rem;
     margin-bottom: 0.5em;
     @include mq(sp) {
-      @include fz(50);
+      @include fz(40);
     }
   }
 }
@@ -23,7 +23,7 @@
   margin: 0 auto 140px;
 
   @include mq(sp) {
-    margin: 0 vw(42);
+    margin: 0 0 vw(70);
   }
   > h2 {
     font-size: 3rem;
@@ -34,7 +34,7 @@
     padding-bottom: 13px;
 
     @include mq(sp) {
-      @include fz(44);
+      @include fz(26);
     }
     &::before {
       position: absolute;
@@ -48,8 +48,8 @@
       background-color: $c_base;
 
       @include mq(sp) {
-        width: vw(400);
-        height: vw(8);
+        width: vw(200);
+        height: vw(2);
       }
     }
   }
@@ -63,7 +63,7 @@
     color: $c_base;
 
     @include mq(sp) {
-      @include fz(40);
+      @include fz(20);
     }
     &::before {
       position: absolute;
@@ -78,8 +78,8 @@
       background-color: #cccccc;
 
       @include mq(sp) {
-        width: vw(44);
-        height: vw(8);
+        width: vw(22);
+        height: vw(4);
       }
     }
   }
@@ -92,7 +92,7 @@
     padding-left: 15px;
 
     @include mq(sp) {
-      @include fz(32);
+      @include fz(16);
     }
     &::before {
       position: absolute;
@@ -107,7 +107,7 @@
       background-color: $c_base;
 
       @include mq(sp) {
-        width: vw(8);
+        width: vw(4);
       }
     }
   }
@@ -118,7 +118,7 @@
     margin: 2em 0 1em;
     color: $c_base;
     @include mq(sp) {
-      @include fz(28);
+      @include fz(14);
     }
   }
   > p {
@@ -126,22 +126,22 @@
     line-height: 2;
     margin-bottom: 2em;
     @include mq(sp) {
-      @include fz(28);
+      @include fz(14);
     }
   }
 
   > ul {
     margin-bottom: 40px;
     @include mq(sp) {
-      margin-bottom: vw(80);
+      margin-bottom: vw(40);
     }
     li {
       font-size: 1.6rem;
       position: relative;
       padding-left: 13px;
       @include mq(sp) {
-        padding-left: vw(24);
-        @include fz(28);
+        padding-left: vw(13);
+        @include fz(14);
       }
       &::before {
         position: absolute;
@@ -155,9 +155,9 @@
         border-radius: 50%;
         background-color: $c_base;
         @include mq(sp) {
-          top: vw(16);
-          width: vw(12);
-          height: vw(12);
+          top: vw(8);
+          width: vw(6);
+          height: vw(6);
         }
       }
       + li {
@@ -170,7 +170,7 @@
     margin-bottom: 40px;
     list-style: none;
     @include mq(sp) {
-      margin-bottom: vw(80);
+      margin-bottom: vw(40);
     }
     li {
       position: relative;
@@ -178,7 +178,7 @@
       counter-increment: num;
       font-size: 1.6rem;
       @include mq(sp) {
-        @include fz(28);
+        @include fz(14);
       }
       &::before {
         font-weight: bold;
@@ -235,7 +235,7 @@
       background-color: #ffffff;
       font-size: 1.6rem;
       @include mq(sp) {
-        @include fz(28);
+        @include fz(14);
       }
     }
     &.is-style-stripes {
@@ -263,8 +263,8 @@
     padding: 45px;
     background-color: #efefef;
     @include mq(sp) {
-      margin-bottom: vw(80);
-      padding: vw(70) vw(45) vw(50);
+      margin-bottom: vw(40);
+      padding: vw(35) vw(22) vw(25);
     }
     &::before {
       position: absolute;
@@ -277,15 +277,15 @@
       content: "";
       background: url("../images/common/icon_quote.png") center/contain no-repeat;
       @include mq(sp) {
-        width: vw(70);
-        height: vw(66);
+        width: vw(32);
+        height: vw(30);
       }
     }
     p {
       font-size: 1.6rem;
       line-height: 2;
       @include mq(sp) {
-        @include fz(28);
+        @include fz(14);
       }
     }
   }
@@ -305,7 +305,7 @@
       font-size: 1.4rem;
       line-height: 1.7142;
       @include mq(sp) {
-        @include fz(28);
+        @include fz(12);
       }
     }
   }
