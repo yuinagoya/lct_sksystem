@@ -694,13 +694,19 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .contact__form .contact__agree .horizontal-item {
+    width: 80vw;
+  }
+}
+
 .contact__form .contact__agree .horizontal-item label {
   margin-bottom: 0 !important;
 }
 
 @media screen and (max-width: 767px) {
   .contact__form .contact__agree .mwform-checkbox-field-text {
-    word-break: keep-all;
+    padding-right: 2em;
   }
 }
 

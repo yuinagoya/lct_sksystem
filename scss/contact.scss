@@ -477,14 +477,19 @@
         width: 400px;
         margin: 0 auto;
       }
+      @include mq(sp) {
+        width: vw(300);
+      }
       label{
         margin-bottom: 0!important;
       }
 
     }
     .mwform-checkbox-field-text{
+      @include mq(pc) {
+      }
       @include mq(sp) {
-        word-break: keep-all;
+        padding-right: 2em;
       }
       
       &:before{
