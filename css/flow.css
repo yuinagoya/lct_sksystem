@@ -474,6 +474,31 @@
   }
 }
 
+.flow-info-box--free {
+  position: relative;
+}
+
+.flow-info-box--free::before {
+  position: absolute;
+  top: -50px;
+  right: -10px;
+  display: block;
+  margin: auto;
+  content: '';
+  width: 96px;
+  height: 96px;
+  background: url("../images/common/icon_free.png") center/contain no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .flow-info-box--free::before {
+    top: -10.66667vw;
+    right: -2.66667vw;
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
 .flow-info-box__txt {
   margin-right: 10px;
   -webkit-box-flex: 1;

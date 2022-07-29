@@ -378,6 +378,27 @@
   }
 }
 
+.flow-info-box--free {
+  position: relative;
+  &::before {
+    position: absolute;
+    top: -50px;
+    right: -10px;
+    display: block;
+    margin: auto;
+    content: '';
+    width: 96px;
+    height: 96px;
+    background: url('../images/common/icon_free.png') center/contain no-repeat;
+    @include mq(sp) {
+      top: -#{vw(40)};
+      right: -#{vw(10)};
+      width: vw(75);
+      height: vw(75);
+    }
+  }
+}
+
 .flow-info-box__txt {
   margin-right: 10px;
 
