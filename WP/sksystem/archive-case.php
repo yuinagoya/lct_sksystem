@@ -161,7 +161,7 @@
 
   if (is_null($thum_src)){
     $thum_src = get_bloginfo('template_directory');
-    $thum_src = $thum_src."/images/top/case_01.jpg";
+    $thum_src = $thum_src."/images/case/dummy.jpg";
   }
 
   $taxonomy_terms_cat = wp_get_object_terms($post->ID, 'cate_case');
