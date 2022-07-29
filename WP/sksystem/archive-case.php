@@ -202,7 +202,6 @@
 
             </li>
 <?php endwhile; ?>
-
           </ul>
 
           <div class="pagenavi">
