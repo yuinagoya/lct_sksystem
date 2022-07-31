@@ -41,55 +41,55 @@
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/cate_case/new_building/' ) ); ?>">
+              <a href="<?php echo esc_url( home_url( '/cate_works/new_building/' ) ); ?>">
                 <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_01.png" alt="" loading="lazy">
                 <span>新築</span>
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/cate_case/renovation/' ) ); ?>">
+              <a href="<?php echo esc_url( home_url( '/cate_works/renovation/' ) ); ?>">
                 <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_02.png" alt="" loading="lazy">
                 <span>リノベーション</span>
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/cate_case/reform/' ) ); ?>">
+              <a href="<?php echo esc_url( home_url( '/cate_works/reform/' ) ); ?>">
                 <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_03.png" alt="" loading="lazy">
                 <span>リフォーム・<br class="sp">増改築</span>
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/cate_case/store/' ) ); ?>">
+              <a href="<?php echo esc_url( home_url( '/cate_works/store/' ) ); ?>">
                 <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_04.png" alt="" loading="lazy">
                 <span>店舗</span>
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/cate_case/toilet/' ) ); ?>">
+              <a href="<?php echo esc_url( home_url( '/cate_works/toilet/' ) ); ?>">
                 <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_05.png" alt="" loading="lazy">
                 <span>トイレ</span>
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/cate_case/kitchen/' ) ); ?>">
+              <a href="<?php echo esc_url( home_url( '/cate_works/kitchen/' ) ); ?>">
                 <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_06.png" alt="" loading="lazy">
                 <span>キッチン</span>
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/cate_case/bathroom/' ) ); ?>">
+              <a href="<?php echo esc_url( home_url( '/cate_works/bathroom/' ) ); ?>">
                 <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_07.png" alt="" loading="lazy">
                 <span>浴室・洗面</span>
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/cate_case/exterior/' ) ); ?>">
+              <a href="<?php echo esc_url( home_url( '/cate_works/exterior/' ) ); ?>">
                 <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_08.png" alt="" loading="lazy">
                 <span>外構・<br class="sp">エクステリア</span>
               </a>
             </li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/cate_case/others/' ) ); ?>">
+              <a href="<?php echo esc_url( home_url( '/cate_works/others/' ) ); ?>">
                 <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_09.png" alt="" loading="lazy">
                 <span>その他</span>
               </a>
