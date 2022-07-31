@@ -48,7 +48,11 @@
               <div class="state-list__wrap">
                 <div class="state-list__img">
                   <a href="<?php the_permalink(); ?>">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/state/state_catimg01.jpg" alt="" loading="lazy">
+                    <?php if (has_post_thumbnail()) : ?>
+                      <?php the_post_thumbnail('thumbnail'); ?>
+                    <?php else : ?>
+                      <img src="<?php bloginfo('template_directory'); ?>/images/case/dummy.jpg" alt="" loading="lazy">
+                    <?php endif ; ?>
                     <div class="state-list__date"><?php the_time( 'Y.m.d' ); ?></div>
                   </a>
                 </div>
