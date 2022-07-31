@@ -4,6 +4,7 @@
       'orderby' => 'date',
       'order' => 'DESC',
       'post_type' => 'post',
+      'category_name' => 'event, cate_news, blog',
       'post_status' => 'publish',
       'posts_per_page' => $param_count,
     )
