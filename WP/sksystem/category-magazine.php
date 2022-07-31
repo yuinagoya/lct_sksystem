@@ -36,10 +36,10 @@
             <div class="magazineBlock_catWrap">
               <p class="cat_ttl">カテゴリーで絞り込む</p>
               <div class="cat_btn">
-                <a href="/">佐賀ぐーるぐる</a>
+                <a href="saga/">佐賀ぐーるぐる</a>
               </div>
               <div class="cat_btn">
-                <a href="/">福岡ぐーるぐる</a>
+                <a href="fukuoka/">福岡ぐーるぐる</a>
               </div>
             </div>
           </div>
@@ -62,7 +62,22 @@
                   </a>
                 </div>
                 <div class="magazine-list__txt">
+<!--
                   <a href=""><div class="magazine-list__category">佐賀ぐーるぐる</div></a>
+-->
+<?php
+  $categories = get_the_category();
+  foreach( $categories as $category ){
+    $cat_id = $category->term_id;
+    $cat_child = get_term_children( $cat_id, 'category' );
+    if( !$cat_child ){
+      echo '<a href="' . get_category_link( $cat_id ) . '"><div class="magazine-list__category">' . $category->name . '</div></a>';
+      break;
+    }
+  }
+?>
+
+
                   <a href="<?php the_permalink(); ?>">
                     <div class="magazine-list__ttl"><?php the_title(); ?></div>
                     <div class="magazine-list__excerpt">文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。</div>
