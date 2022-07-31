@@ -50,6 +50,12 @@
   <?php if( is_category('magazine') ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/magazine.css" />
   <?php endif; ?>
+  <?php if( is_category('saga') ): ?>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/magazine.css" />
+  <?php endif; ?>
+  <?php if( is_category('fukuoka') ): ?>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/magazine.css" />
+  <?php endif; ?>
   <?php if( is_category('construction') ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/state.css" />
   <?php endif; ?>
