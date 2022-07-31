@@ -53,16 +53,16 @@
   <?php if( is_category('construction') ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/state.css" />
   <?php endif; ?>
-  <?php if(is_singular('case')): ?>
+  <?php if(is_singular('works')): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/case.css" />
   <?php endif; ?>
-  <?php if(is_post_type_archive('case')): ?>
+  <?php if(is_post_type_archive('works')): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/case.css" />
   <?php endif; ?>
-  <?php if(is_tax('cate_case')): ?>
+  <?php if(is_tax('cate_works')): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/case.css" />
   <?php endif; ?>
-  <?php if(is_tax('tag_case')): ?>
+  <?php if(is_tax('tag_works')): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/case.css" />
   <?php endif; ?>
   <?php if(is_search()): ?>
@@ -115,7 +115,7 @@
         <ul class="global-nav-list">
           <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">ホーム</a></li>
           <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">エスケイシステムにできること</a></li>
-          <li><a href="<?php echo esc_url( home_url( '/case/' ) ); ?>">施工事例</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/works/' ) ); ?>">施工事例</a></li>
           <li><a href="<?php echo esc_url( home_url( '/qa/' ) ); ?>">よくあるご質問</a></li>
           <li><a href="<?php echo esc_url( home_url( '/company/' ) ); ?>">会社概要</a></li>
         </ul>
@@ -132,17 +132,17 @@
           <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">ホーム</a></li>
           <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">エスケイシステムに<br class="pc">できること</a></li>
           <li>
-            <a class="trigger" href="<?php echo esc_url( home_url( '/case/' ) ); ?>">施工事例</a>
+            <a class="trigger" href="<?php echo esc_url( home_url( '/works/' ) ); ?>">施工事例</a>
             <ul class="drawer-nav-sublist">
-              <li><a href="<?php echo esc_url( home_url( '/cate_case/new_building/' ) ); ?>">新築</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/cate_case/renovation/' ) ); ?>">リノベーション</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/cate_case/reform/' ) ); ?>">リフォーム・増改築</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/cate_case/store/' ) ); ?>">店舗</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/cate_case/toilet/' ) ); ?>">トイレ</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/cate_case/kitchen/' ) ); ?>">キッチン</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/cate_case/bathroom/' ) ); ?>">浴室・洗面</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/cate_case/exterior/' ) ); ?>">外構・エクステリア</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/cate_case/others/' ) ); ?>">その他</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/cate_works/new_building/' ) ); ?>">新築</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/cate_works/renovation/' ) ); ?>">リノベーション</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/cate_works/reform/' ) ); ?>">リフォーム・増改築</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/cate_works/store/' ) ); ?>">店舗</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/cate_works/toilet/' ) ); ?>">トイレ</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/cate_works/kitchen/' ) ); ?>">キッチン</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/cate_works/bathroom/' ) ); ?>">浴室・洗面</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/cate_works/exterior/' ) ); ?>">外構・エクステリア</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/cate_works/others/' ) ); ?>">その他</a></li>
             </ul>
           </li>
           <li><a href="#">リフォーム・新築の流れ</a></li>
