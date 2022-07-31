@@ -15,7 +15,11 @@
 
     <li class="scrollin-3col">
       <a href="<?php the_permalink(); ?>">
-        <img src="<?php bloginfo('template_directory'); ?>/images/top/state_01.jpg" alt="" loading="lazy">
+        <?php if (has_post_thumbnail()) : ?>
+          <?php the_post_thumbnail('thumbnail'); ?>
+        <?php else : ?>
+          <img src="<?php bloginfo('template_directory'); ?>/images/case/dummy.jpg" alt="" loading="lazy">
+        <?php endif ; ?>
         <time><?php the_time( 'Y.m.d' ); ?></time>
         <p><?php the_title(); ?></p>
       </a>
