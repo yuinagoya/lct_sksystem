@@ -16,7 +16,11 @@
     <li>
       <div class="magazine-list__img">
         <a href="<?php the_permalink(); ?>">
-          <img src="<?php bloginfo('template_directory'); ?>/images/top/magazine_01.jpg" alt="" loading="lazy">
+          <?php if (has_post_thumbnail()) : ?>
+            <?php the_post_thumbnail('thumbnail'); ?>
+          <?php else : ?>
+            <img src="<?php bloginfo('template_directory'); ?>/images/top/magazine_01.jpg" alt="" loading="lazy">
+          <?php endif ; ?>
         </a>
       </div>
 
