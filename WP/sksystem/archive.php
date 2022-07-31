@@ -1,3 +1,3 @@
 <?php
-include(TEMPLATEPATH . '/archive-case.php');
+include(TEMPLATEPATH . '/archive-works.php');
 ?>
