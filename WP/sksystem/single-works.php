@@ -65,7 +65,7 @@
 
   if (is_null($src)){
     $src = get_bloginfo('template_directory');
-    $src = $src."/images/case/dummy.png";
+    $src = $src."/images/case/dummy.jpg";
   }
 ?>
                 <img src="<?php echo $src; ?>" alt="Case" loading="lazy">
