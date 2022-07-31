@@ -148,22 +148,22 @@
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">ホーム</a></li>
             <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">エスケイシステムにできること</a></li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/case/' ) ); ?>">施工事例</a>
+              <a href="<?php echo esc_url( home_url( '/works/' ) ); ?>">施工事例</a>
 
               <div class="footer-nav-list__flex">
                 <ul class="footer-nav-sublist">
-                  <li><a href="<?php echo esc_url( home_url( '/cate_case/new_building/' ) ); ?>">新築</a></li>
-                  <li><a href="<?php echo esc_url( home_url( '/cate_case/reform/' ) ); ?>">リフォーム・増改築</a></li>
-                  <li><a href="<?php echo esc_url( home_url( '/cate_case/toilet/' ) ); ?>">トイレ</a></li>
-                  <li><a href="<?php echo esc_url( home_url( '/cate_case/bathroom/' ) ); ?>">浴室・洗面</a></li>
-                  <li><a href="<?php echo esc_url( home_url( '/cate_case/others/' ) ); ?>">その他</a></li>
+                  <li><a href="<?php echo esc_url( home_url( '/cate_works/new_building/' ) ); ?>">新築</a></li>
+                  <li><a href="<?php echo esc_url( home_url( '/cate_works/reform/' ) ); ?>">リフォーム・増改築</a></li>
+                  <li><a href="<?php echo esc_url( home_url( '/cate_works/toilet/' ) ); ?>">トイレ</a></li>
+                  <li><a href="<?php echo esc_url( home_url( '/cate_works/bathroom/' ) ); ?>">浴室・洗面</a></li>
+                  <li><a href="<?php echo esc_url( home_url( '/cate_works/others/' ) ); ?>">その他</a></li>
                 </ul>
 
                 <ul class="footer-nav-sublist">
-                  <li><a href="<?php echo esc_url( home_url( '/cate_case/renovation/' ) ); ?>">リノベーション</a></li>
-                  <li><a href="<?php echo esc_url( home_url( '/cate_case/store/' ) ); ?>">店舗</a></li>
-                  <li><a href="<?php echo esc_url( home_url( '/cate_case/kitchen/' ) ); ?>">キッチン</a></li>
-                  <li><a href="<?php echo esc_url( home_url( '/cate_case/exterior/' ) ); ?>">外構・エクステリア</a></li>
+                  <li><a href="<?php echo esc_url( home_url( '/cate_works/renovation/' ) ); ?>">リノベーション</a></li>
+                  <li><a href="<?php echo esc_url( home_url( '/cate_works/store/' ) ); ?>">店舗</a></li>
+                  <li><a href="<?php echo esc_url( home_url( '/cate_works/kitchen/' ) ); ?>">キッチン</a></li>
+                  <li><a href="<?php echo esc_url( home_url( '/cate_works/exterior/' ) ); ?>">外構・エクステリア</a></li>
                 </ul>
               </div>
             </li>
