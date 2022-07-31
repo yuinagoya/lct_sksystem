@@ -26,7 +26,7 @@
     $thum_src = $thum_src."/images/case/dummy.jpg";
   }
 
-  $taxonomy_terms_cat = wp_get_object_terms($post->ID, 'cate_works');
+  $taxonomy_terms_cat = wp_get_object_terms($query->post->ID, 'cate_works');
   $taxonomy_terms_cat_name = $taxonomy_terms_cat[0]->name; //ターム名
 
   $caption = get_field('area');
