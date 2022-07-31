@@ -27,7 +27,22 @@
       <div class="magazine-list__txt">
         <div class="magazine-list__info">
           <time><?php the_time( 'Y.m.d' ); ?></time>
+<!--
           <a href="#">佐賀ぐーるぐる</a>
+-->
+<?php
+  $categories = get_the_category();
+  foreach( $categories as $category ){
+    $cat_id = $category->term_id;
+    $cat_child = get_term_children( $cat_id, 'category' );
+    if( !$cat_child ){
+      echo '<a href="' . get_category_link( $cat_id ) . '">' . $category->name . '</a>';
+      break;
+    }
+  }
+?>
+
+
         </div>
         <p><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
       </div>
