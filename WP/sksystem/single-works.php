@@ -36,7 +36,9 @@
         <div class="wrap">
           <div class="scrollin" data-wow-offset="200">
             <div class="case-single__head">
-              <p class="case-single__case">CASE<span><?php echo $caption; ?></span></p>
+              <?php if ($caption != '') : ?>
+                <p class="case-single__case">CASE<span><?php echo $caption; ?></span></p>
+              <?php endif ; ?>
               <h2 class="case-single__ttl"><?php the_title(); ?></h2>
               <div class="flex-block">
                 <ul class="case-list__category">
