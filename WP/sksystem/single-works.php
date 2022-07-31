@@ -28,6 +28,7 @@
 <?php
   $taxonomy_terms_cat = wp_get_object_terms($post->ID, 'cate_works');
   $taxonomy_terms_cat_name = $taxonomy_terms_cat[0]->name; //ターム名
+  $taxonomy_terms_cat_slug = $taxonomy_terms_cat[0]->slug; //スラッグ名
   $caption = get_field('area');
   $caption = $caption.get_field('caption');
 ?>
@@ -373,6 +374,14 @@
       'orderby' => 'date',
       'order' => 'DESC',
       'post_type' => 'works',
+      'post__not_in' => array($post->ID),
+      'tax_query' => array(
+        array(
+          'taxonomy' => 'cate_works',
+          'field' => 'slug',
+          'terms' => $taxonomy_terms_cat_slug
+        )
+      ),
       'posts_per_page' => 6,
     )
   );
