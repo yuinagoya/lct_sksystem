@@ -147,10 +147,15 @@
         bottom: -15px;
         left: 0;
       }
-      img{
+      img {
         border-radius: 10px;
-        @include mq(sp){
-          width: 100%;
+        width: 100%;
+        object-fit: cover;
+        @include mq(pc) {
+          height: 220px;
+        }
+        @include mq(sp) {
+          height: #{vw(220)};
         }
       }
     }
