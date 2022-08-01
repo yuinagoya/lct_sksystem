@@ -206,7 +206,7 @@
 
         <h3 class="drawer-content__ttl">土地から探せます</h3>
         <div class="drawer-search">
-          <a href="https://www.sk-sys-ngp.jp/">不動産サイトはこちら<span>物件・土地を探す</span></a>
+          <a href="https://www.sk-sys-ngp.jp/" target="_blank">不動産サイトはこちら<span>物件・土地を探す</span></a>
         </div>
       </div>
     </div>

@@ -80,7 +80,7 @@
 
     <div class="pc-fixed-bnr">
       <div class="pc-fixed-bnr-search">
-        <a href="https://www.sk-sys-ngp.jp/">
+        <a href="https://www.sk-sys-ngp.jp/" target="_blank">
           <p>不動産サイトはこちら<span>物件・土地を探す</span></p>
         </a>
       </div>
@@ -203,7 +203,7 @@
   <div class="sp-fixed-bnr">
     <ul class="sp-fixed-bnr__list">
       <li>
-        <a href="https://www.sk-sys-ngp.jp/">
+        <a href="https://www.sk-sys-ngp.jp/" target="_blank">
           <img src="<?php bloginfo('template_directory'); ?>/images/common/icon_window.png" alt="アイコン" loading="lazy">
           <span>物件・土地<br>を探す</span>
         </a>
