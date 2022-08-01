@@ -22,7 +22,7 @@
 <?php
   $categories = get_the_category();
   foreach( $categories as $category ) {
-    echo '<li>'.$category->name.'</li>';
+    echo '<li><a href="'.$category->slug.'/">'.$category->name.'</a></li>';
   }
 ?>
         </ul>
