@@ -40,7 +40,9 @@
 <?php
   $categories = get_categories();
   foreach($categories as $category) {
-    echo '<li><a href="'.get_category_link($category->term_id).'">'.$category->name.'</a></li>';
+    if( $category->slug=='event' || $category->slug=='blog' || $category->slug=='cate_news' ){
+      echo '<li><a href="'.get_category_link($category->term_id).'">'.$category->name.'</a></li>';
+    }
   }
 ?>
 
