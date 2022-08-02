@@ -59,7 +59,17 @@
                 <div class="state-list__txt">
                   <a href="<?php the_permalink(); ?>">
                     <div class="state-list__ttl"><?php the_title(); ?></div>
-                    <div class="state-list__excerpt">文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。</div>
+
+<?php
+    // 投稿テキストを取得する
+    $content = get_the_content();
+    // HTMLタグをすべて取り除く
+    $content = wp_strip_all_tags( $content );
+    // ショートコードを取り除く
+    $content = strip_shortcodes( $content );
+?>
+
+                    <div class="state-list__excerpt"><?php echo mb_substr($content,0,50).'...'; ?></div>
                   </a>
                 </div>
               </div>
