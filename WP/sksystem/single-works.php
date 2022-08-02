@@ -45,9 +45,9 @@
                   <li><a href="#"><?php echo $taxonomy_terms_cat_name; ?></a></li>
                 </ul>
                 <ul class="case-single__sns-list">
-                  <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/case/ico_fb.png" alt="facebook" loading="lazy"></a></li>
-                  <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/case/ico_tw.png" alt="twitter" loading="lazy"></a></li>
-                  <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/case/ico_ln.png" alt="line" loading="lazy"></a></li>
+                  <li><a href="http://www.facebook.com/share.php?u=<?php echo get_the_permalink(); ?>"  target="_blank" rel="nofollow noopener"><img src="<?php bloginfo('template_directory'); ?>/images/case/ico_fb.png" alt="facebook" loading="lazy"></a></li>
+                  <li><a href="https://twitter.com/share?url=<?php echo get_the_permalink();?>&text=<?php echo get_the_title();?>" target="_blank" rel="nofollow noopener"><img src="<?php bloginfo('template_directory'); ?>/images/case/ico_tw.png" alt="twitter" loading="lazy"></a></li>
+                  <li><a href="https://social-plugins.line.me/lineit/share?url=<?php echo get_the_permalink(); ?>" target="_blank" rel="nofollow noopener"><img src="<?php bloginfo('template_directory'); ?>/images/case/ico_ln.png" alt="line" loading="lazy"></a></li>
                 </ul>
               </div>
             </div>
