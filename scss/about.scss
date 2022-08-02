@@ -78,7 +78,7 @@
         h3{
           @include mq(pc) {
             padding-bottom: .8em;
-            background-image: url("../images/strengths/strengths_line01.png");
+            background-image: url("../images/about/strengths_line01.png");
           }
         }
         .strengths-list__num{
@@ -159,7 +159,7 @@
     }
     h3{
       position:relative;
-      background: url("../images/strengths/strengths_line02.png") no-repeat center bottom /100% auto;
+      background: url("../images/about/strengths_line02.png") no-repeat center bottom /100% auto;
       margin-bottom: 2em;
       padding-bottom: .5em;
       @include mq(pc) {
