@@ -30,7 +30,7 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/contact.css" />
   <?php endif; ?>
   <?php if(is_page('qa') ): ?>
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/faq.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/qa.css" />
   <?php endif; ?>
   <?php if(is_page('line') ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/line.css" />
@@ -39,7 +39,7 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/company.css" />
   <?php endif; ?>
   <?php if(is_page('about') ): ?>
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/strengths.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/about.css" />
   <?php endif; ?>
   <?php if(is_page('flow') ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/flow.css" />
