@@ -29,6 +29,7 @@
   $taxonomy_terms_cat = wp_get_object_terms($post->ID, 'cate_works');
   $taxonomy_terms_cat_name = $taxonomy_terms_cat[0]->name; //ターム名
   $taxonomy_terms_cat_slug = $taxonomy_terms_cat[0]->slug; //スラッグ名
+  $taxonomy_terms_cat_link = get_term_link( $taxonomy_terms_cat_slug, 'cate_works');
   $caption = get_field('area');
   $caption = $caption.get_field('caption');
 ?>
@@ -42,7 +43,7 @@
               <h2 class="case-single__ttl"><?php the_title(); ?></h2>
               <div class="flex-block">
                 <ul class="case-list__category">
-                  <li><a href="#"><?php echo $taxonomy_terms_cat_name; ?></a></li>
+                  <li><a href="<?php echo $taxonomy_terms_cat_link; ?>"><?php echo $taxonomy_terms_cat_name; ?></a></li>
                 </ul>
                 <ul class="case-single__sns-list">
                   <li><a href="http://www.facebook.com/share.php?u=<?php echo get_the_permalink(); ?>"  target="_blank" rel="nofollow noopener"><img src="<?php bloginfo('template_directory'); ?>/images/case/ico_fb.png" alt="facebook" loading="lazy"></a></li>
@@ -414,7 +415,8 @@
 
   $taxonomy_terms_cat = wp_get_object_terms($post->ID, 'cate_works');
   $taxonomy_terms_cat_name = $taxonomy_terms_cat[0]->name; //ターム名
-
+  $taxonomy_terms_cat_slug = $taxonomy_terms_cat[0]->slug; //スラッグ名
+  $taxonomy_terms_cat_link = get_term_link( $taxonomy_terms_cat_slug, 'cate_works');
   $caption = get_field('area');
   $caption = $caption.get_field('caption');
 
@@ -427,7 +429,7 @@
                 </a>
                 <div class="case-list__txt">
                   <ul class="case-list__category">
-                    <li><a href="#"><?php echo $taxonomy_terms_cat_name; ?></a></li>
+                    <li><a href="<?php echo $taxonomy_terms_cat_link; ?>"><?php echo $taxonomy_terms_cat_name; ?></a></li>
                   </ul>
 
                   <a href="<?php the_permalink(); ?>">
