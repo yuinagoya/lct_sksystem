@@ -180,7 +180,7 @@
           <ul>
             <li>
               <span class="drawer-tel__num">
-                佐賀本店<span>0952-31-5884</span>
+                佐賀本社<span>0952-31-5884</span>
               </span>
               <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜17:00（定休日:日・祝）</span>
             </li>
