@@ -10,7 +10,7 @@
         <div class="footer-contact-tel">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
             <img src="<?php bloginfo('template_directory'); ?>/images/common/icon_tel.png" alt="アイコン" loading="lazy">
-            <p><span>0120-927-502</span><br>9:00〜18:00（定休日／日・祝）</p>
+            <p><span>0952-31-5884</span><br>9:00〜17:00（定休日／日・祝）</p>
           </a>
         </div>
 
@@ -89,13 +89,13 @@
         <ul class="pc-fixed-bnr-tel__list">
           <li>
             <span>佐賀本店</span>
-            <span>0120-927-502</span>
-            <span>9:00～18:00（定休日／日・祝）</span>
+            <span>0952-31-5884</span>
+            <span>9:00～17:00（定休日／日・祝）</span>
           </li>
           <!-- <li>
             <span>佐賀本店</span>
-            <span>0120-927-502</span>
-            <span>9:00～18:00（定休日／日・祝）</span>
+            <span>0952-31-5884</span>
+            <span>9:00～17:00（定休日／日・祝）</span>
           </li> -->
         </ul>
       </div>
