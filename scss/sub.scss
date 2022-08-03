@@ -752,3 +752,12 @@
 .mb5{
   margin-bottom: 5em;
 }
+//====================================
+//  下層共通
+//====================================
+.xs-only{
+  display: none;
+  @include mq(sp){
+    display: block;
+  }
+}
