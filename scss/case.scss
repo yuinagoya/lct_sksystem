@@ -469,6 +469,10 @@
     background: rgba(0,0,0,0);
     position: relative;
     z-index: 1;
+    padding-top: 2em;
+    @include mq(sp) {
+      padding-top: 7em;
+    }
   }
   &__sec02{
     background: #faf9e4;

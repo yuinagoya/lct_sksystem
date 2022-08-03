@@ -621,6 +621,13 @@
   background: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
+  padding-top: 2em;
+}
+
+@media screen and (max-width: 767px) {
+  .case-single__sec01 {
+    padding-top: 7em;
+  }
 }
 
 .case-single__sec02 {
