@@ -48,3 +48,14 @@
   left: -56px;
   top: -8px;
 }
+
+.page-faq .faq_wrap .cont_a a {
+  text-decoration: underline;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.page-faq .faq_wrap .cont_a a:hover {
+  color: #2fa876;
+}
+/*# sourceMappingURL=qa.css.map */

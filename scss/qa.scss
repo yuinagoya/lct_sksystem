@@ -51,6 +51,13 @@
           left: -56px;
           top: -8px;
         }
+        a {
+          text-decoration: underline;
+          transition: .2s;
+          &:hover {
+            color: #2fa876;
+          }
+        }
       }
     }
   }
