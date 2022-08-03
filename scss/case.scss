@@ -295,6 +295,7 @@
   }
   &__ba{
     margin-bottom: 60px;
+    
     @include mq(sp) {
       display: block;
       margin-bottom: #{vw(60)}
@@ -338,6 +339,10 @@
   &__before{
     width: calc(100% - 485px);
     position: relative;
+    @include mq(pc) {
+      padding-right: 105px;
+      box-sizing: border-box;
+    }
     @include mq(sp) {
       width: 100%;
       margin-bottom: #{vw(50)}
