@@ -180,15 +180,15 @@
           <ul>
             <li>
               <span class="drawer-tel__num">
-                佐賀本店<span>0120-927-502</span>
+                佐賀本店<span>0952-31-5884</span>
               </span>
-              <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜18:00（定休日:日・祝）</span>
+              <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜17:00（定休日:日・祝）</span>
             </li>
             <!-- <li>
               <span class="drawer-tel__num">
-                北九州支店<span>0120-927-502</span>
+                北九州支店<span>0952-31-5884</span>
               </span>
-              <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜18:00（定休日:日・祝）</span>
+              <span class="drawer-tel__address">〒849-0937 佐賀県佐賀市鍋島3丁目9-2／9:00〜17:00（定休日:日・祝）</span>
             </li> -->
           </ul>
         </div>
