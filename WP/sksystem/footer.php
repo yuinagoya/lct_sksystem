@@ -167,7 +167,7 @@
                 </ul>
               </div>
             </li>
-            <li><a href="#">リフォーム・新築の流れ</a></li>
+            <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">リフォーム・新築の流れ</a></li>
             <li><a href="<?php echo esc_url( home_url( '/qa/' ) ); ?>">よくあるご質問</a></li>
           </ul>
 
@@ -181,8 +181,8 @@
               <a href="<?php echo esc_url( home_url( '/magazine/' ) ); ?>">マガジン</a>
 
               <ul class="footer-nav-sublist">
-                <li><a href="#">佐賀ぐーるぐる</a></li>
-                <li><a href="#">福岡ぐーるぐる</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/magazine/saga/' ) ); ?>">佐賀ぐーるぐる</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/magazine/fukuoka/' ) ); ?>">福岡ぐーるぐる</a></li>
               </ul>
             </li>
             <li><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">お問い合わせ</a></li>

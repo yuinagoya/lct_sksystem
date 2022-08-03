@@ -151,12 +151,12 @@
               <li><a href="<?php echo esc_url( home_url( '/cate_works/others/' ) ); ?>">その他</a></li>
             </ul>
           </li>
-          <li><a href="#">リフォーム・新築の流れ</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/flow/' ) ); ?>">リフォーム・新築の流れ</a></li>
           <li><a href="<?php echo esc_url( home_url( '/qa/' ) ); ?>">よくあるご質問</a></li>
         </ul>
 
         <ul class="drawer-nav-list">
-          <li><a href="#">スタッフ紹介</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/staff/' ) ); ?>">スタッフ紹介</a></li>
           <li><a href="<?php echo esc_url( home_url( '/company/' ) ); ?>">会社概要</a></li>
           <li><a href="<?php echo esc_url( home_url( '/line/' ) ); ?>">LINEで相談</a></li>
           <li><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>">お知らせ</a></li>
@@ -165,8 +165,8 @@
             <a class="trigger" href="<?php echo esc_url( home_url( '/magazine/' ) ); ?>">マガジン</a>
 
             <ul class="drawer-nav-sublist">
-              <li><a href="#">佐賀ぐーるぐる</a></li>
-              <li><a href="#">福岡ぐーるぐる</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/magazine/saga/' ) ); ?>">佐賀ぐーるぐる</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/magazine/fukuoka/' ) ); ?>">福岡ぐーるぐる</a></li>
             </ul>
           </li>
           <li><a href="<?php echo esc_url( home_url( '/privacy/' ) ); ?>">プライバシーポリシー</a></li>
