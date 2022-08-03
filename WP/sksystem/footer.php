@@ -88,12 +88,12 @@
       <div class="pc-fixed-bnr-tel">
         <ul class="pc-fixed-bnr-tel__list">
           <li>
-            <span>佐賀本店</span>
+            <span>佐賀本社</span>
             <span>0952-31-5884</span>
             <span>9:00～17:00（定休日／日・祝）</span>
           </li>
           <!-- <li>
-            <span>佐賀本店</span>
+            <span>佐賀本社</span>
             <span>0952-31-5884</span>
             <span>9:00～17:00（定休日／日・祝）</span>
           </li> -->
@@ -211,7 +211,7 @@
       <li>
         <a href="#">
           <img src="<?php bloginfo('template_directory'); ?>/images/common/icon_tel.png" alt="アイコン" loading="lazy">
-          <span>佐賀本店</span>
+          <span>佐賀本社</span>
         </a>
       </li>
       <!-- <li>
