@@ -566,6 +566,9 @@ img {
 
     gap: 70px;
   }
+  @include mq(sp){
+    padding-bottom: 6rem;
+  }
 }
 
 .drawer-nav-list {
