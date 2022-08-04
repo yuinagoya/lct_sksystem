@@ -5,10 +5,12 @@
 @import "include/_mixin";
 
 .single {
+
   h1 {
     font-size: 6rem;
     margin-bottom: 0.5em;
     @include mq(sp) {
+      padding-top: 1.5em;
       @include fz(40);
     }
   }
