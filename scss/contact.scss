@@ -111,6 +111,7 @@
     picture{
       img{
         margin: 0 auto;
+        width: 140px;
         @include mq(sp) {
           width: #{vw(120)};
           height: auto;
