@@ -40,7 +40,7 @@
 <?php if ( have_posts() ): ?>
       <section class="stateBlock__02">
         <div class="wrap">
-          <p class="state-count scrollin" data-wow-offset="200">全21件</p>
+          <p class="state-count scrollin" data-wow-offset="200">全<?php echo $wp_query->found_posts; ?>件</p>
           <ul class="state-list">
 
 <?php while ( have_posts() ) : the_post(); ?>
