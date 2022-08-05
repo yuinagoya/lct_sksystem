@@ -88,16 +88,22 @@
               <div class="case-single__date">
                 <h3>DATE</h3>
                 <dl class="date-list">
+                  <?php if( get_field('wkSum02') ):?>
                   <dt>内容</dt>
                   <dd><?php the_field('wkSum02'); ?></dd>
+                  <?php endif;?>
 <!--
                   <dt>工事費</dt>
                   <dd>約600万円</dd>
 -->
+                  <?php if( get_field('wkSum04') ):?>
                   <dt>工期</dt>
                   <dd><?php the_field('wkSum04'); ?></dd>
+                  <?php endif;?>
+                  <?php if( get_field('area') ):?>
                   <dt>地域</dt>
                   <dd><?php the_field('area'); ?></dd>
+                  <?php endif;?>
                 </dl>
               </div>
               <div class="case-single__material">
