@@ -181,7 +181,9 @@
 
                 <div class="case-list__txt">
                   <ul class="case-list__category">
+<?php if(!empty($taxonomy_terms_cat)): ?>
                     <li><a href="<?php echo $taxonomy_terms_cat_link; ?>"><?php echo $taxonomy_terms_cat_name; ?></a></li>
+<?php endif; ?>
                   </ul>
 
                   <a href="<?php the_permalink(); ?>">
