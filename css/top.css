@@ -132,8 +132,11 @@
 
 @media screen and (max-width: 767px) {
   .feature__list {
+    -webkit-flex-flow: wrap;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
     margin: 0 -3.2vw;
-    padding: 2.66667vw 0;
+    padding: 4.26667vw 0;
     border-radius: 2.66667vw;
   }
 }
@@ -158,14 +161,64 @@
 }
 
 .feature__list li {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .feature__list li {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature__list li {
+    width: 50%;
+  }
 }
 
 .feature__list li + li {
   border-left: 1px solid #d2dfda;
+}
+
+@media screen and (max-width: 767px) {
+  .feature__list li:last-child {
+    border: none;
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 5.33333vw;
+    padding: 2.66667vw 3.73333vw 0;
+    gap: 1em;
+  }
+  .feature__list li:last-child::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 47%;
+    height: 1px;
+    display: block;
+    margin: auto;
+    background-color: #d2dfda;
+    content: "";
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .feature__list li:last-child img {
+    width: 45px;
+  }
 }
 
 .feature__list img {
@@ -179,7 +232,7 @@
   }
 }
 
-.feature__list p {
+.feature__list figcaption {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.25;
@@ -188,20 +241,20 @@
 }
 
 @media screen and (max-width: 767px) {
-  .feature__list p {
-    font-size: 11px;
-    font-size: 2.93333vw;
+  .feature__list figcaption {
+    font-size: 12px;
+    font-size: 3.2vw;
   }
 }
 
-.feature__list p span {
+.feature__list figcaption span {
   font-weight: 900;
   position: relative;
   z-index: 1;
   padding: 0 0.3em;
 }
 
-.feature__list p span::before {
+.feature__list figcaption span::before {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -212,6 +265,32 @@
   margin: auto;
   content: "";
   background: #fff835;
+}
+
+.feature__list p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #2fa876;
+}
+
+@media screen and (min-width: 768px) {
+  .feature__list p {
+    margin: 1em auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature__list p {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 10px;
+    font-size: 2.66667vw;
+  }
 }
 
 .case {
@@ -469,8 +548,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   margin: auto;
   -o-object-fit: cover;
   object-fit: cover;
@@ -1113,12 +1192,12 @@
 }
 
 .state-list figure {
+  position: relative;
+  overflow: hidden;
+  height: 0;
   margin-bottom: -13px;
   padding-top: 74.1935%;
-  height: 0;
   border-radius: 10px;
-  overflow: hidden;
-  position: relative;
 }
 
 @media screen and (max-width: 767px) {
@@ -1129,16 +1208,16 @@
 }
 
 .state-list img {
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  -o-object-fit: cover;
-  object-fit: cover;
-  margin: auto;
   width: 100%;
   height: 100%;
-  position: absolute;
+  margin: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .state-list time {
