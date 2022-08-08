@@ -35,6 +35,9 @@
   <?php if(is_page('line') ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/line.css" />
   <?php endif; ?>
+  <?php if(is_page('staff') ): ?>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/staff.css" />
+  <?php endif; ?>
   <?php if(is_page('company') ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/company.css" />
   <?php endif; ?>

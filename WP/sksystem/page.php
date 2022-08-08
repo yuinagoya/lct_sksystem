@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <main id="main" <?php if(is_page('line') ){echo "class='page-line'";} elseif(is_page('qa')){ echo "class='page-faq'"; }; ?>>
+  <main id="main" <?php if(is_page('line') ){echo "class='page-line'";} elseif(is_page('qa')){ echo "class='page-faq'"; } elseif(is_page('staff')){ echo "class='page-staff'"; }; ?>>
     <article>
       <section class="mv">
         <div class="mv__img">

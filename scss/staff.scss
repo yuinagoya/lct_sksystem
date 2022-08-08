@@ -1,0 +1,258 @@
+@charset 'UTF-8';
+
+// Import
+@import "include/_variable";
+@import "include/_mixin";
+
+//====================================
+//  staff
+//====================================
+.page-staff{
+  background: #faf9e4;
+    .mv__txt{
+      .ja{
+        z-index: 2;
+      }
+      .en{
+        top: 5.2rem;
+        z-index: 0;
+      }
+    }
+    .sub__ttl__main {
+      margin: 0 auto 2em;
+    }
+    .person_wrap_type01 {
+      display: flex;
+      @include mq(sp) {
+        flex-direction: column;
+      }
+      .person_photo {
+        width: 49%;
+        padding-left: 30px;
+        @include mq(sp) {
+          width: 100%;
+          padding-left: 0px;
+        }
+        .person_photo_box {
+          position: relative;
+          &::before {
+            content:"";
+            position:absolute;
+            width: 115px;
+            height: 134px;
+            background: url(../images/staff/parts_left.png);
+            left: 27px;
+            top: 135px;
+            z-index: 1;
+            @include mq(sp) {
+              left: 0px;
+            }
+          }
+          &::after {
+            content:"";
+            position:absolute;
+            width: 60px;
+            height: 69px;
+            background: url(../images/staff/parts_right.png);
+            left: 371px;
+            top: 92px;
+            @include mq(sp) {
+              left: 267px;
+              top: 45px;
+            }
+          }
+          img.person_img {
+            margin: 0 auto;
+            position: relative;
+          }
+          .hobby_box {
+            background: rgba(234,246,241,.9);
+            position: absolute;
+            width: 132px;
+            height: 124px;
+            border-radius: 100px;
+            top: 197px;
+            left: 316px;
+            padding: 18px;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 1.3rem;
+            line-height: 1.2;
+            @include mq(sp) {
+              left: 197px;
+            }
+            img {
+              margin: 0 auto 9px;
+            }
+          }
+        }
+      }
+      .person_info {
+        width: 51%;
+        @include mq(sp) {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .person_name {
+          padding: 33px 0 9px;
+          border-bottom: 1px dashed #776756;
+          width: 52%;
+          margin: 0 0 20px;
+          @include mq(sp) {
+            margin: 0 auto 20px;
+            width: auto;
+          }
+          span {
+            &:nth-of-type(2) {
+              letter-spacing: 0px;
+              font-size: 1.8rem;
+              display: inline-block;
+              margin: 0 12px;
+            }
+            &:nth-of-type(3) {
+              color: #2fa876;
+              font-size: 1rem;
+            }
+          }
+        }
+        .person_cont {
+          margin-bottom: 15px;
+        }
+        .person_str {
+          background: #faf9f7;
+          padding: 24px;
+          width: 80%;
+          @include mq(sp) {
+            width: 96%;
+          }
+          span {
+            &:nth-of-type(1) {
+              color: #2fa876;
+              display: block;
+              margin-bottom: 5px;
+            }
+          }
+        }
+      }
+    }
+    .member_wrap {
+      margin: 73px auto 0;
+      display: flex;
+      flex-wrap: wrap;
+      width: 96%;
+      .person_wrap_type02 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-bottom: 68px;
+        @include mq(sp) {
+          width: 100%;
+        }
+        .person_photo {
+          .person_photo_box {
+            position: relative;
+            &::before {
+              content:"";
+              position:absolute;
+              width: 115px;
+              height: 134px;
+              background: url(../images/staff/parts_left02.png);
+              left: 43px;
+              top: 114px;
+              z-index: 1;
+              @include mq(sp) {
+                left: 0px;
+              }
+            }
+            img.person_img {
+              margin: 0 auto;
+              position: relative;
+            }
+            .hobby_box {
+              background: rgba(234,246,241,.9);
+              position: absolute;
+              width: 132px;
+              height: 124px;
+              border-radius: 100px;
+              top: 147px;
+              left: 297px;
+              padding: 18px;
+              box-sizing: border-box;
+              text-align: center;
+              font-size: 1.3rem;
+              line-height: 1.2;
+              @include mq(sp) {
+                left: 197px;
+              }
+              img {
+                margin: 0 auto 9px;
+              }
+            }
+          }
+        }
+        .person_info {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-left: 25px;
+          @include mq(sp) {
+            padding-left: 0px;
+          }
+          .person_name {
+            padding: 26px 0 9px;
+            border-bottom: 1px dashed #776756;
+            margin-bottom: 16px;
+            span {
+              &:nth-of-type(2) {
+                letter-spacing: 0px;
+                font-size: 1.8rem;
+                display: inline-block;
+                margin: 0 12px;
+              }
+              &:nth-of-type(3) {
+                color: #2fa876;
+                font-size: 1rem;
+              }
+            }
+          }
+          .person_license {
+            color: #776756;
+            width: 83%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            @include mq(sp) {
+              width: 100%;
+            }
+            img {
+              margin-right: 10px;
+            }
+          }
+          .person_cont {
+            margin-bottom: 15px;
+            padding: 0 61px 0 42px;
+            @include mq(sp) {
+              padding: 0;
+            }
+          }
+          .person_str {
+            background: #faf9f7;
+            padding: 24px;
+            width: 72%;
+            @include mq(sp) {
+              width: 96%;
+            }
+            span {
+              &:nth-of-type(1) {
+                color: #2fa876;
+                display: block;
+                margin-bottom: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

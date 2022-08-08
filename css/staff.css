@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
+.page-staff {
+  background: #faf9e4;
+}
+
+.page-staff .mv__txt .ja {
+  z-index: 2;
+}
+
+.page-staff .mv__txt .en {
+  top: 5.2rem;
+  z-index: 0;
+}
+
+.page-staff .sub__ttl__main {
+  margin: 0 auto 2em;
+}
+
+.page-staff .person_wrap_type01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .person_wrap_type01 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.page-staff .person_wrap_type01 .person_photo {
+  width: 49%;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .person_wrap_type01 .person_photo {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
+.page-staff .person_wrap_type01 .person_photo .person_photo_box {
+  position: relative;
+}
+
+.page-staff .person_wrap_type01 .person_photo .person_photo_box::before {
+  content: "";
+  position: absolute;
+  width: 115px;
+  height: 134px;
+  background: url(../images/staff/parts_left.png);
+  left: 27px;
+  top: 135px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .person_wrap_type01 .person_photo .person_photo_box::before {
+    left: 0px;
+  }
+}
+
+.page-staff .person_wrap_type01 .person_photo .person_photo_box::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 69px;
+  background: url(../images/staff/parts_right.png);
+  left: 371px;
+  top: 92px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .person_wrap_type01 .person_photo .person_photo_box::after {
+    left: 267px;
+    top: 45px;
+  }
+}
+
+.page-staff .person_wrap_type01 .person_photo .person_photo_box img.person_img {
+  margin: 0 auto;
+  position: relative;
+}
+
+.page-staff .person_wrap_type01 .person_photo .person_photo_box .hobby_box {
+  background: rgba(234, 246, 241, 0.9);
+  position: absolute;
+  width: 132px;
+  height: 124px;
+  border-radius: 100px;
+  top: 197px;
+  left: 316px;
+  padding: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .person_wrap_type01 .person_photo .person_photo_box .hobby_box {
+    left: 197px;
+  }
+}
+
+.page-staff .person_wrap_type01 .person_photo .person_photo_box .hobby_box img {
+  margin: 0 auto 9px;
+}
+
+.page-staff .person_wrap_type01 .person_info {
+  width: 51%;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .person_wrap_type01 .person_info {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.page-staff .person_wrap_type01 .person_info .person_name {
+  padding: 33px 0 9px;
+  border-bottom: 1px dashed #776756;
+  width: 52%;
+  margin: 0 0 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .person_wrap_type01 .person_info .person_name {
+    margin: 0 auto 20px;
+    width: auto;
+  }
+}
+
+.page-staff .person_wrap_type01 .person_info .person_name span:nth-of-type(2) {
+  letter-spacing: 0px;
+  font-size: 1.8rem;
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.page-staff .person_wrap_type01 .person_info .person_name span:nth-of-type(3) {
+  color: #2fa876;
+  font-size: 1rem;
+}
+
+.page-staff .person_wrap_type01 .person_info .person_cont {
+  margin-bottom: 15px;
+}
+
+.page-staff .person_wrap_type01 .person_info .person_str {
+  background: #faf9f7;
+  padding: 24px;
+  width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .person_wrap_type01 .person_info .person_str {
+    width: 96%;
+  }
+}
+
+.page-staff .person_wrap_type01 .person_info .person_str span:nth-of-type(1) {
+  color: #2fa876;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.page-staff .member_wrap {
+  margin: 73px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 96%;
+}
+
+.page-staff .member_wrap .person_wrap_type02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  margin-bottom: 68px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .member_wrap .person_wrap_type02 {
+    width: 100%;
+  }
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_photo .person_photo_box {
+  position: relative;
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_photo .person_photo_box::before {
+  content: "";
+  position: absolute;
+  width: 115px;
+  height: 134px;
+  background: url(../images/staff/parts_left02.png);
+  left: 43px;
+  top: 114px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .member_wrap .person_wrap_type02 .person_photo .person_photo_box::before {
+    left: 0px;
+  }
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_photo .person_photo_box img.person_img {
+  margin: 0 auto;
+  position: relative;
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_photo .person_photo_box .hobby_box {
+  background: rgba(234, 246, 241, 0.9);
+  position: absolute;
+  width: 132px;
+  height: 124px;
+  border-radius: 100px;
+  top: 147px;
+  left: 297px;
+  padding: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .member_wrap .person_wrap_type02 .person_photo .person_photo_box .hobby_box {
+    left: 197px;
+  }
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_photo .person_photo_box .hobby_box img {
+  margin: 0 auto 9px;
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .member_wrap .person_wrap_type02 .person_info {
+    padding-left: 0px;
+  }
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_info .person_name {
+  padding: 26px 0 9px;
+  border-bottom: 1px dashed #776756;
+  margin-bottom: 16px;
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_info .person_name span:nth-of-type(2) {
+  letter-spacing: 0px;
+  font-size: 1.8rem;
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_info .person_name span:nth-of-type(3) {
+  color: #2fa876;
+  font-size: 1rem;
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_info .person_license {
+  color: #776756;
+  width: 83%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .member_wrap .person_wrap_type02 .person_info .person_license {
+    width: 100%;
+  }
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_info .person_license img {
+  margin-right: 10px;
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_info .person_cont {
+  margin-bottom: 15px;
+  padding: 0 61px 0 42px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .member_wrap .person_wrap_type02 .person_info .person_cont {
+    padding: 0;
+  }
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_info .person_str {
+  background: #faf9f7;
+  padding: 24px;
+  width: 72%;
+}
+
+@media screen and (max-width: 767px) {
+  .page-staff .member_wrap .person_wrap_type02 .person_info .person_str {
+    width: 96%;
+  }
+}
+
+.page-staff .member_wrap .person_wrap_type02 .person_info .person_str span:nth-of-type(1) {
+  color: #2fa876;
+  display: block;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=staff.css.map */
