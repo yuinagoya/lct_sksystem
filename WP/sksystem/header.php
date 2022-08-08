@@ -29,6 +29,9 @@
   <?php if(is_page('contact') ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/contact.css" />
   <?php endif; ?>
+  <?php if(is_page('thanks') ): ?>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/contact.css" />
+  <?php endif; ?>
   <?php if(is_page('qa') ): ?>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/qa.css" />
   <?php endif; ?>
