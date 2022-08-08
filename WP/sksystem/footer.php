@@ -8,7 +8,7 @@
 
       <div class="footer-contact__box">
         <div class="footer-contact-tel">
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+          <a href="tel:0952-31-5884">
             <img src="<?php bloginfo('template_directory'); ?>/images/common/icon_tel.png" alt="アイコン" loading="lazy">
             <p><span>0952-31-5884</span><br>9:00〜17:00（定休日／日・祝）</p>
           </a>
@@ -209,7 +209,7 @@
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="tel:0952-31-5884">
           <img src="<?php bloginfo('template_directory'); ?>/images/common/icon_tel.png" alt="アイコン" loading="lazy">
           <span>佐賀本社</span>
         </a>
