@@ -28,7 +28,7 @@
 
   $taxonomy_terms_cat = wp_get_object_terms($query->post->ID, 'cate_works');
   $taxonomy_terms_cat_name = $taxonomy_terms_cat[0]->name; //ターム名
-
+  $taxonomy_terms_cat_link = get_term_link( $taxonomy_terms_cat[0]->slug, 'cate_works');
   $caption = get_field('area');
   $caption = $caption.get_field('caption');
 
@@ -42,10 +42,13 @@
 
         <div class="case-list__txt">
           <ul class="case-list__category">
-            <li><a href="#"><?php echo $taxonomy_terms_cat_name; ?></a></li>
+<?php if(!empty($taxonomy_terms_cat)): ?>
+            <li><a href="<?php echo $taxonomy_terms_cat_link; ?>"><?php echo $taxonomy_terms_cat_name; ?></a></li>
+<?php endif; ?>
+
           </ul>
 
-          <a href="#">
+          <a href="<?php the_permalink(); ?>">
             <span class="case-list__ttl"><?php echo $caption; ?></span>
             <p><?php the_title(); ?></p>
           </a>
