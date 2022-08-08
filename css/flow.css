@@ -496,6 +496,7 @@
     right: -2.66667vw;
     width: 20vw;
     height: 20vw;
+    z-index: 2;
   }
 }
 
