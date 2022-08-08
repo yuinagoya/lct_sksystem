@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
 .single h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   margin-bottom: 0.5em;
 }
 
 @media screen and (max-width: 767px) {
   .single h1 {
     padding-top: 1.5em;
-    font-size: 40px;
-    font-size: 10.66667vw;
+    font-size: 35px;
+    font-size: 9.33333vw;
   }
 }
 

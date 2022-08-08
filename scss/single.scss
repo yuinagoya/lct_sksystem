@@ -7,11 +7,11 @@
 .single {
 
   h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     margin-bottom: 0.5em;
     @include mq(sp) {
       padding-top: 1.5em;
-      @include fz(40);
+      @include fz(35);
     }
   }
 }
