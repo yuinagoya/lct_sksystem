@@ -59,6 +59,7 @@
 
     <div class="footer-sns-link scrollin">
       <ul>
+<!--
         <li>
           <a href="#">
             <picture>
@@ -67,6 +68,7 @@
             </picture>
           </a>
         </li>
+-->
         <li>
           <a href="https://www.instagram.com/sk.system1001" target="_blank">
             <picture>
@@ -120,11 +122,13 @@
           </div>
           <div class="footer-sns">
             <ul>
+<!--
               <li>
                 <a href="#" target="_blank">
                   <img src="<?php bloginfo('template_directory'); ?>/images/common/icon_facebook.png" alt="FACEBOOK" loading="lazy">
                 </a>
               </li>
+-->
               <li>
                 <a href="https://www.instagram.com/sk.system1001" target="_blank">
                   <img src="<?php bloginfo('template_directory'); ?>/images/common/icon_instagram.png" alt="INSTAGRAM" loading="lazy">
