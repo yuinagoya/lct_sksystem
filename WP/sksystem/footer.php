@@ -180,13 +180,13 @@
             <li><a href="<?php echo esc_url( home_url( '/company/' ) ); ?>">会社概要</a></li>
             <li><a href="<?php echo esc_url( home_url( '/line/' ) ); ?>">LINEで相談</a></li>
             <li><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>">お知らせ</a></li>
-            <li><a href="<?php echo esc_url( home_url( '/construction/' ) ); ?>">施工中の様子</a></li>
+            <li><a href="<?php echo esc_url( home_url( 'category/construction/' ) ); ?>">施工中の様子</a></li>
             <li>
-              <a href="<?php echo esc_url( home_url( '/magazine/' ) ); ?>">マガジン</a>
+              <a href="<?php echo esc_url( home_url( 'category/magazine/' ) ); ?>">マガジン</a>
 
               <ul class="footer-nav-sublist">
-                <li><a href="<?php echo esc_url( home_url( '/magazine/saga/' ) ); ?>">佐賀ぐーるぐる</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/magazine/fukuoka/' ) ); ?>">福岡ぐーるぐる</a></li>
+                <li><a href="<?php echo esc_url( home_url( 'category/magazine/saga/' ) ); ?>">佐賀ぐーるぐる</a></li>
+                <li><a href="<?php echo esc_url( home_url( 'category/magazine/fukuoka/' ) ); ?>">福岡ぐーるぐる</a></li>
               </ul>
             </li>
             <li><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">お問い合わせ</a></li>
