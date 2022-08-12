@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap");
+.page-faq {
+  background: #faf9e4;
+}
+
 .page-faq .mv__txt .ja {
   z-index: 2;
 }
