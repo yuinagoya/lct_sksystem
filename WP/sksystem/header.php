@@ -15,8 +15,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       document.querySelector('meta[name=viewport]').content = 'width=1200';
     }
   </script>
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
   <meta name="theme-color">
   <title>株式会社エスケイシステム</title>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/lib/slick.css" />
