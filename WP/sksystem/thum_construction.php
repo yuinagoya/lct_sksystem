@@ -21,7 +21,8 @@ $query = new WP_Query(
             </figure>
           <?php else : ?>
             <figure>
-              <img src="<?php bloginfo('template_directory'); ?>/images/case/dummy.jpg" alt="" loading="lazy">
+              <!--<img src="<?php bloginfo('template_directory'); ?>/images/case/dummy.jpg" alt="" loading="lazy">-->
+              <img src="<?php echo catch_that_image(); ?>" alt="" loading="lazy">
             </figure>
           <?php endif; ?>
           <time><?php the_time('Y.m.d'); ?></time>
