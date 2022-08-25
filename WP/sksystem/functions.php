@@ -56,7 +56,7 @@ function catch_that_image() {
     $first_img = $matches [1][0];
     if(empty($first_img)){
         // 記事内で画像がなかったときのためのデフォルト画像を指定
-        $first_img = get_bloginfo('template_directory')."/assets/images/common/no-image.jpg";
+        $first_img = get_bloginfo('template_directory')."/images/case/dummy.jpg";
     }
     return $first_img;
 }
