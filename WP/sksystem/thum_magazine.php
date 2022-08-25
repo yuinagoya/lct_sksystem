@@ -19,8 +19,8 @@
           <?php if (has_post_thumbnail()) : ?>
             <?php the_post_thumbnail('thumbnail'); ?>
           <?php else : ?>
-            <!--<img src="<?php bloginfo('template_directory'); ?>/images/top/magazine_01.jpg" alt="" loading="lazy">-->
-            <img src="<?php bloginfo('template_directory'); ?>/images/case/dummy.jpg" alt="" loading="lazy">
+            <!--<img src="<?php bloginfo('template_directory'); ?>/images/case/dummy.jpg" alt="" loading="lazy">-->
+            <img src="<?php echo catch_that_image(); ?>" alt="" loading="lazy">
           <?php endif ; ?>
         </a>
       </div>
