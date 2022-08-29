@@ -566,7 +566,8 @@ img {
 
     gap: 70px;
   }
-  @include mq(sp){
+
+  @include mq(sp) {
     padding-bottom: 6rem;
   }
 }
@@ -815,6 +816,77 @@ img {
 }
 
 //====================================
+//  施工事例アイコンナビ
+//====================================
+
+.case-nav {
+  display: flex;
+  margin: 40px 0 54px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #f0f5f1;
+
+  flex-flow: wrap;
+
+  @include mq(pc) {
+    gap: 18px;
+  }
+
+  @include mq(sp) {
+    padding: vw(10);
+    margin: vw(46) 0 vw(35);
+
+    gap: vw(10);
+  }
+  li {
+    @include mq(pc) {
+      width: calc((100% - 18px * 4) / 5);
+    }
+
+    @include mq(sp) {
+      width: calc((100% - #{vw(10)} * 2) / 3);
+    }
+  }
+  a {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    transition: 0.3s;
+    text-align: center;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  img {
+    margin: 20px auto;
+
+    @include mq(sp) {
+      margin: vw(10) auto;
+      width: vw(42);
+    }
+  }
+  span {
+    background-color: #faf9e4;
+    display: block;
+    height: 3.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    @include mq(sp) {
+      height: 4em;
+      @include fz(12);
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+//====================================
 //  FOOTER
 //====================================
 
@@ -1019,6 +1091,7 @@ img {
   @include mq(sp) {
     margin-bottom: vw(40);
   }
+
   p {
     font-size: 1.8rem;
 
@@ -1035,6 +1108,7 @@ img {
   position: relative;
   width: fit-content;
   margin-bottom: 0.5em;
+
   @include mq(sp) {
     @include fz(24);
   }
@@ -1066,6 +1140,7 @@ img {
   @include mq(sp) {
     @include fz(18);
   }
+
   span {
     font-size: 2.6rem;
     position: relative;
@@ -1077,6 +1152,7 @@ img {
     @include mq(sp) {
       @include fz(24);
     }
+
     &::before {
       position: absolute;
       z-index: -1;
@@ -1124,6 +1200,7 @@ img {
     padding: vw(14) 0;
     border-radius: 0 0 vw(10) vw(10);
   }
+
   li {
     text-align: center;
 
@@ -1161,6 +1238,7 @@ img {
   @include mq(sp) {
     margin: vw(30) vw(20) vw(140);
   }
+
   ul {
     display: flex;
 
@@ -1350,6 +1428,7 @@ img {
   height: 80px;
   color: #ffffff;
   background-color: $c_base;
+
   @include mq(sp) {
     display: none;
   }
@@ -1448,6 +1527,8 @@ img {
 
 .pc-fixed-bnr-mail {
   box-sizing: border-box;
+  width: 100%;
+  max-width: 270px;
   height: 103px;
   margin-top: -23px;
   border-top: 3px solid #2fa876;
@@ -1455,18 +1536,17 @@ img {
   border-left: 3px solid #2fa876;
   border-radius: 10px 10px 0 0;
   background-color: #ffffff;
-  width: 100%;
-  max-width: 270px;
+
   flex: 1;
   a {
-    white-space: nowrap;
     font-size: clamp(2rem, 1.7vw, 2.4rem);
     display: flex;
     box-sizing: border-box;
     height: 100%;
-    transition: 0.3s;
-    color: #2fa876;
     padding: 0 10px;
+    transition: 0.3s;
+    white-space: nowrap;
+    color: #2fa876;
 
     column-gap: 12px;
     align-items: center;
@@ -1486,6 +1566,8 @@ img {
 
 .pc-fixed-bnr-line {
   box-sizing: border-box;
+  width: 100%;
+  max-width: 270px;
   height: 103px;
   margin-top: -23px;
   border-top: 3px solid #4cc764;
@@ -1493,15 +1575,14 @@ img {
   border-left: 3px solid #4cc764;
   border-radius: 10px 10px 0 0;
   background-color: #ffffff;
-  width: 100%;
-  max-width: 270px;
+
   flex: 1;
   a {
-    padding: 0 10px;
     font-size: clamp(2rem, 1.7vw, 2.4rem);
     display: flex;
     box-sizing: border-box;
     height: 100%;
+    padding: 0 10px;
     transition: 0.3s;
     color: #4cc764;
 
@@ -1599,6 +1680,7 @@ img {
     display: flex;
     box-sizing: border-box;
     height: 100%;
+    letter-spacing: 1;
     color: #2fa876;
     border: vw(2) solid #2fa876;
     border-bottom: none;
@@ -1608,8 +1690,6 @@ img {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    letter-spacing: 1;
-
     @include fz(10);
   }
   img {
@@ -1625,6 +1705,7 @@ img {
     display: flex;
     box-sizing: border-box;
     height: 100%;
+    letter-spacing: 1;
     color: #4cc764;
     border: vw(2) solid #4cc764;
     border-bottom: none;
@@ -1634,8 +1715,6 @@ img {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    letter-spacing: 1;
-
     @include fz(10);
   }
   img {

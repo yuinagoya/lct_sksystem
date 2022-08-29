@@ -36,61 +36,61 @@
           <ul class="case-nav scrollin" data-wow-offset="200">
             <li>
               <a href="<?php echo esc_url( home_url( '/works/' ) ); ?>">
-                <img src="<?php bloginfo('template_directory'); ?>/images/case/case_nav_all.png" alt="すべて" loading="lazy">
+                <img src="<?php bloginfo('template_directory'); ?>/images/common/case_nav_00.png" alt="すべて" loading="lazy">
                 <span>すべて</span>
               </a>
             </li>
             <li>
               <a href="<?php echo esc_url( home_url( '/cate_works/new_building/' ) ); ?>">
-                <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_01.png" alt="新築" loading="lazy">
+                <img src="<?php bloginfo('template_directory'); ?>/images/common/case_nav_01.png" alt="新築" loading="lazy">
                 <span>新築</span>
               </a>
             </li>
             <li>
               <a href="<?php echo esc_url( home_url( '/cate_works/renovation/' ) ); ?>">
-                <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_02.png" alt="リノベーション" loading="lazy">
+                <img src="<?php bloginfo('template_directory'); ?>/images/common/case_nav_02.png" alt="リノベーション" loading="lazy">
                 <span>リノベーション</span>
               </a>
             </li>
             <li>
               <a href="<?php echo esc_url( home_url( '/cate_works/reform/' ) ); ?>">
-                <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_03.png" alt="リフォーム・増改築" loading="lazy">
+                <img src="<?php bloginfo('template_directory'); ?>/images/common/case_nav_03.png" alt="リフォーム・増改築" loading="lazy">
                 <span>リフォーム・<br class="sp">増改築</span>
               </a>
             </li>
             <li>
               <a href="<?php echo esc_url( home_url( '/cate_works/store/' ) ); ?>">
-                <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_04.png" alt="店舗" loading="lazy">
+                <img src="<?php bloginfo('template_directory'); ?>/images/common/case_nav_04.png" alt="店舗" loading="lazy">
                 <span>店舗</span>
               </a>
             </li>
             <li>
               <a href="<?php echo esc_url( home_url( '/cate_works/toilet/' ) ); ?>">
-                <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_05.png" alt="トイレ" loading="lazy">
+                <img src="<?php bloginfo('template_directory'); ?>/images/common/case_nav_05.png" alt="トイレ" loading="lazy">
                 <span>トイレ</span>
               </a>
             </li>
             <li>
               <a href="<?php echo esc_url( home_url( '/cate_works/kitchen/' ) ); ?>">
-                <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_06.png" alt="キッチン" loading="lazy">
+                <img src="<?php bloginfo('template_directory'); ?>/images/common/case_nav_06.png" alt="キッチン" loading="lazy">
                 <span>キッチン</span>
               </a>
             </li>
             <li>
               <a href="<?php echo esc_url( home_url( '/cate_works/bathroom/' ) ); ?>">
-                <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_07.png" alt="浴室・洗面" loading="lazy">
+                <img src="<?php bloginfo('template_directory'); ?>/images/common/case_nav_07.png" alt="浴室・洗面" loading="lazy">
                 <span>浴室・洗面</span>
               </a>
             </li>
             <li>
               <a href="<?php echo esc_url( home_url( '/cate_works/exterior/' ) ); ?>">
-                <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_08.png" alt="外構・エクステリア" loading="lazy">
+                <img src="<?php bloginfo('template_directory'); ?>/images/common/case_nav_08.png" alt="外構・エクステリア" loading="lazy">
                 <span>外構・<br class="sp">エクステリア</span>
               </a>
             </li>
             <li>
               <a href="<?php echo esc_url( home_url( '/cate_works/others/' ) ); ?>">
-                <img src="<?php bloginfo('template_directory'); ?>/images/top/case_nav_09.png" alt="その他" loading="lazy">
+                <img src="<?php bloginfo('template_directory'); ?>/images/common/case_nav_09.png" alt="その他" loading="lazy">
                 <span>その他</span>
               </a>
             </li>
