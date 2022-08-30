@@ -16,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
   </script>
   <meta name="theme-color">
-  <title>株式会社エスケイシステム</title>
+  <!--<title>株式会社エスケイシステム</title>-->
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/lib/slick.css" />
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/lib/slick-theme.css" />
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/common.css" />
