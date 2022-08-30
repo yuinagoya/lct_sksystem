@@ -10,7 +10,7 @@
         <div class="footer-contact-tel">
           <a href="tel:0952-31-5884">
             <img src="<?php bloginfo('template_directory'); ?>/images/common/icon_tel.png" alt="アイコン" loading="lazy">
-            <p><span>0952-31-5884</span><br>9:00〜17:00（定休日／日・祝）</p>
+            <p><span>0952-31-5884</span><br>9:00〜17:00（定休日／土・日・祝）</p>
           </a>
         </div>
 
@@ -92,12 +92,12 @@
           <li>
             <span>佐賀本社</span>
             <span>0952-31-5884</span>
-            <span>9:00～17:00（定休日／日・祝）</span>
+            <span>9:00～17:00（定休日／土・日・祝）</span>
           </li>
           <!-- <li>
             <span>佐賀本社</span>
             <span>0952-31-5884</span>
-            <span>9:00～17:00（定休日／日・祝）</span>
+            <span>9:00～17:00（定休日／土・日・祝）</span>
           </li> -->
         </ul>
       </div>
