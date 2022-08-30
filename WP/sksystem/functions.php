@@ -60,3 +60,5 @@ function catch_that_image() {
     }
     return $first_img;
 }
+//タイトルを自動出力する
+add_theme_support( 'title-tag' );
